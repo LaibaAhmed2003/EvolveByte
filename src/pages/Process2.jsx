@@ -37,11 +37,12 @@ const Process2 = () => {
     <div className="process-con" id="process">
       <p className="heading">PROCESS</p>
       <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
-        <span>
+        {/* <span>
           Collaboration is easy
           <br />
         </span>
-        with our tech-enabled process.
+        with our tech-enabled process. */}
+        How does this <span>work?</span>
       </h2>
       <div
         className="process-contents"
@@ -51,24 +52,58 @@ const Process2 = () => {
       >
         <div className="process-left">
           <div className="text-item">
-            <h3>REAL-TIME, TACTICAL STRATEGY. </h3>
+            <h3>1- Strategy Call</h3>
             <p>
-              Chat strategy in real-time with your SEO Strategist. Get keyword
-              lists, Blog outlines, technical fixes, and more.
+              We will discuss your all requirements to develop a strategy that
+              combines your business objectives with the needs of your target
+              audience which will include:
+            </p>
+            <br />
+            <p>- Goal focusing</p>
+            <p>- Initial ideation</p>
+            <p>- Offer creation</p>
+            <p>- Brand voice alignment</p>
+            <br />
+            <p>
+              We will mutually discuss your expectations, vision for your
+              business, and a complete roadmap for growth.
             </p>
           </div>
           <div>
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>REAL-TIME, TACTICAL STRATEGY. </h3>
+            <h3>3- Copywriting & SEO</h3>
             <p>
-              Chat strategy in real-time with your SEO Strategist. Get keyword
-              lists, Blog outlines, technical fixes, and more.
+              All types of high quality designs and websites are useless unless
+              you have words that convert your targeted audience. With top-notch
+              Copywriting and SEO we make sure to:
+            </p>
+            <br />
+            <p>Connect with the right audience</p>
+            <p>Provide them with irresistible offers</p>
+            <p>Convert 80% of your website visitors</p>
+            <p>Build loyal and long-term customer base</p>
+            <br />
+            <p>
+              Without having persuasive copywriting and implementing SEO
+              practices it's almost impossible to get enough conversions.{" "}
             </p>
           </div>
           <div>
             <video src={Video1} className="videosec" autoPlay loop muted />
+          </div>
+          <div className="text-item">
+            <h3>5- Weekly Meetings & Progress Reporting:</h3>
+            <p>
+              We would love to have weekly meetings with you to get to know your
+              thoughts and a detailed discussion on how we can improve further.
+            </p>
+            <br />
+            <p>
+              You will also get consistent updates regarding the progress on
+              each stage.
+            </p>
           </div>
         </div>
         <div className="process-mid">
@@ -90,26 +125,51 @@ const Process2 = () => {
           <div>
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
+
           <div className="text-item">
-            <h3>REAL-TIME, TACTICAL STRATEGY. </h3>
+            <h3>2- Website design and development</h3>
             <p>
-              Chat strategy in real-time with your SEO Strategist. Get keyword
-              lists, Blog outlines, technical fixes, and more.
+              Once we’ve gathered all requirements we’ll offer you consultation
+              about your website. Our team will build a highly converting
+              website for you to ensure your website:
+            </p>
+            <br />
+            <p>- Builds trust & credibility</p>
+            <p>- Optimized for conversions</p>
+            <p>- Increase customer engagement</p>
+            <p>- Attract warm leads for you 24/7</p>
+            <br />
+            <p>
+              If you already have a website but you’re not getting enough
+              results then we will help you figure out the issues and revamp
+              your website.
             </p>
           </div>
           <div>
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>REAL-TIME, TACTICAL STRATEGY. </h3>
+            <h3>4- LinkedIn growth</h3>
             <p>
-              Chat strategy in real-time with your SEO Strategist. Get keyword
-              lists, Blog outlines, technical fixes, and more.
+              Why spend thousands of $$$ on paid ads when you can generate the
+              same results for almost half the amount? With the proven LinkedIn
+              growth strategies you can:
+            </p>
+            <br />
+            <p>Get high-ticket clients</p>
+            <p>Build your strong business identity</p>
+            <p>Have personal brand for you & your employees</p>
+            <p>Get potential investment & partnership opportunities</p>
+            <br />
+            <p>
+              LinkedIn has proved far better than various other marketing
+              sources in terms of flexibility, potential, and growth
+              opportunities.
             </p>
           </div>
         </div>
       </div>
-      <Link smooth to="#pricing" className="navlink">
+      <Link smooth to="#pricing" className="navlink mtop">
         <button className="Seebtn">See Plans</button>
       </Link>
     </div>

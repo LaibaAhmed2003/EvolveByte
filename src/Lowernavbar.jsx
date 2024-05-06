@@ -8,7 +8,7 @@ const Lowernavbar = () => {
         <Link smooth to="#work" className="navlink">
           Work
         </Link>
-        <Link smooth to="#why-us" className="navlink">
+        <Link smooth to="#videosec" className="navlink">
           Why us?
         </Link>
         <Link smooth to="#services" className="navlink">
@@ -20,9 +20,9 @@ const Lowernavbar = () => {
         <Link smooth to="#testimonial" className="navlink">
           Testimonials
         </Link>
-        <Link smooth to="#pricing" className="navlink">
+        {/* <Link smooth to="#pricing" className="navlink">
           Pricing
-        </Link>
+        </Link> */}
         <Link smooth to="#getStarted" className="navlink">
           Steps
         </Link>

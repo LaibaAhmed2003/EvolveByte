@@ -8,36 +8,34 @@ const GetStarted = () => {
           GET STARTED
         </p>
         <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
-          how to get started:
+        How to get started
         </h2>
         <div className="strategies-container">
           <div className="strategy">
             <div className="big-letter-container">
               <h4 className="big-letter">1</h4>
             </div>
-            <h3>BOOK A CALL</h3>
+            <h3>Book a Call</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Deserunt.
+            Schedule a call with us to discuss more on how we can help your business.
             </p>
           </div>
           <div className="strategy">
             <div className="big-letter-container">
               <h4 className="big-letter">2</h4>
             </div>
-            <h3>SEO & CONTENT STRATEGY</h3>
+            <h3>Growth strategy creation</h3>
             <p>
-              ab veniam dolorum saepe eligendi reprehenderit earum eum ipsum.
+            We’ll gather all requirements from you to create a profitable growth strategy.
             </p>
           </div>
           <div className="strategy">
             <div className="big-letter-container">
               <h4 className="big-letter">3</h4>
             </div>
-            <h3>PRODUCTION</h3>
+            <h3>Implementation</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit veniam.
+            We’ll start implementing our growth plan to meet your desired business objectives.
             </p>
           </div>
         </div>

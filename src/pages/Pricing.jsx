@@ -23,6 +23,7 @@ const Pricing = () => {
         >
           Monthly
         </div>
+        |
         <div
           className={`${!showMonthly ? "Activefilter" : ""}`}
           onClick={handleQuaterlyClick}

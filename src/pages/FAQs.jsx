@@ -24,17 +24,16 @@ const FAQs = () => {
           <span>Frequently</span> <br /> Asked Questions
         </h2>
         <p>
-          Contact Studios is always growing and we're <br /> here to help along
-          the way. If you have <br /> additional questions, feel free to reach
-          out.
+          EvolveByte is always growing and we're <br /> here to help along the
+          way. If you have <br /> additional questions, feel free to reach out.
         </p>
         <button className="btn">Get Started</button>
       </div>
       <div className="FAQ-sess2">
         <div className="question">
           <div className="heading-arrow">
-            <h3>
-              WHY IS CONTACT STUDIOS A BETTER CHOICE THAN HIRING IN-HOUSE?
+            <h3 className="faq-heading">
+              Why is EvolveByte a better choice than other marketing agencies?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -44,24 +43,32 @@ const FAQs = () => {
           </div>
           {showContent1 && (
             <p>
-              Most businesses can't find, train or afford to hire the SEO
-              Strategists, Content Managers, Writers, and Designers necessary to
-              scale SEO. Thats not even counting the time it takes to create an
-              effective SEO strategy and seamless production process.
+              Most marketing agencies offer all-in-one services that require
+              large budgets and take time to yield visible results.
               <br />
-              With Contact Studios, for the same price as hiring a single
-              employee, and you get a team of the top 1% of SEO strategists,
-              editors, writers, and designers. Simply put, Contact Studios makes
-              content marketing and SEO exponentially more cost-effective and
-              simple.
+              For example, they may urge you to invest heavily in expensive
+              marketing strategies such as paid ads and email marketing, without
+              having an actual estimation about results.
+              <br />
+              At EvolveByte, we have a proven approach for B2B businesses that
+              allows you to invest less and achieve the maximum results
+              possible.
+              <br />
+              We attract, engage, and convert your target audience using the
+              most effective marketing approaches.
+              <br />
+              No paid ads,
+              <br />
+              No complex sales funnel,
+              <br />
+              No big marketing budget is required here.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3>
-              WHY IS CONTACT STUDIOS A BETTER CHOICE THAN OTHER SEO AGENCIES OR
-              CONTENT AGENCIES?
+            <h3 className="faq-heading">
+              How will EvolveByte integrate with our company?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -71,20 +78,18 @@ const FAQs = () => {
           </div>
           {showContent2 && (
             <p>
-              Most businesses can't find, train or afford to hire the SEO
-              Strategists, Content Managers, Writers, and Designers necessary to
-              scale SEO. Thats not even counting the time it takes to create an
-              effective SEO strategy and seamless production process. With
-              Contact Studios, for the same price as hiring a single employee,
-              and you get a team of the top 1% of SEO strategists, editors,
-              writers, and designers. Simply put, Contact Studios makes content
-              marketing and SEO exponentially more cost-effective and simple.
+              Within 24 hours of signing the contract, you will be onboarded to
+              Trello. There, you'll have a dedicated project manager who will
+              maintain constant communication with you and keep you updated on
+              progress.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3>HOW MANY BLOG POSTS CAN YOU CREATE PER MONTH?</h3>
+            <h3 className="faq-heading">
+              Will LinkedIn actually help me grow traffic and make more sales?
+            </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
               className="arrow-down"
@@ -93,20 +98,31 @@ const FAQs = () => {
           </div>
           {showContent3 && (
             <p>
-              Most businesses can't find, train or afford to hire the SEO
-              Strategists, Content Managers, Writers, and Designers necessary to
-              scale SEO. Thats not even counting the time it takes to create an
-              effective SEO strategy and seamless production process. With
-              Contact Studios, for the same price as hiring a single employee,
-              and you get a team of the top 1% of SEO strategists, editors,
-              writers, and designers. Simply put, Contact Studios makes content
-              marketing and SEO exponentially more cost-effective and simple.
+              LinkedIn is one of the highest-converting marketing channels on
+              the planet. When you look at the stats, it's pretty wild.
+              <br />
+              LinkedIn’s user base of over 800 million professionals offers vast
+              networking possibilities that can lead to business opportunities.
+              <br />
+              Being consistent on LinkedIn can establish you as an industry
+              expert, attracting potential clients among LinkedIn’s user base
+              actively seeking industry insights.
+              <br />
+              LinkedIn Sales Navigator can enhance lead generation efforts, with
+              LinkedIn claiming a 17% higher win rate when leads are sourced
+              through the platform.
+              <br />
+              Sharing links on LinkedIn can enhance SEO, leveraging its high
+              domain authority to boost your site's visibility in search
+              results. In a nutshell, once you implement the right strategies
+              for LinkedIn growth, it can become your 24/7 sales generation
+              machine.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3>HOW WILL CONTACT STUDIOS INTEGRATE WITH ME?</h3>
+            <h3 className="faq-heading">When is your team online?</h3>
             <FontAwesomeIcon
               icon={faArrowDown}
               className="arrow-down"
@@ -116,21 +132,34 @@ const FAQs = () => {
 
           {showContent4 && (
             <p>
-              Most businesses can't find, train or afford to hire the SEO
-              Strategists, Content Managers, Writers, and Designers necessary to
-              scale SEO. Thats not even counting the time it takes to create an
-              effective SEO strategy and seamless production process. With
-              Contact Studios, for the same price as hiring a single employee,
-              and you get a team of the top 1% of SEO strategists, editors,
-              writers, and designers. Simply put, Contact Studios makes content
-              marketing and SEO exponentially more cost-effective and simple.
+              EvolveByte boasts a diversified team operating across EST, AEST,
+              and PST time zones. Whenever you contact us, our team will respond
+              within a few hours.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3>
-              WHY IS CONTACT STUDIOS A BETTER CHOICE THAN HIRING IN-HOUSE?
+            <h3 className="faq-heading">Can I pause or cancel?</h3>
+            <FontAwesomeIcon
+              icon={faArrowDown}
+              className="arrow-down"
+              onClick={() => toggleContent(5)}
+            />
+          </div>
+
+          {showContent5 && (
+            <p>
+              There are no annual contracts or irreversible commitments. You can
+              pause or cancel at any time. Cancellations take effect at the
+              start of your next billing cycle.
+            </p>
+          )}
+        </div>
+        <div className="question">
+          <div className="heading-arrow">
+            <h3 className="faq-heading">
+              Can I upgrade my service package later?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -141,14 +170,9 @@ const FAQs = () => {
 
           {showContent5 && (
             <p>
-              Most businesses can't find, train or afford to hire the SEO
-              Strategists, Content Managers, Writers, and Designers necessary to
-              scale SEO. Thats not even counting the time it takes to create an
-              effective SEO strategy and seamless production process. With
-              Contact Studios, for the same price as hiring a single employee,
-              and you get a team of the top 1% of SEO strategists, editors,
-              writers, and designers. Simply put, Contact Studios makes content
-              marketing and SEO exponentially more cost-effective and simple.
+              Scaling your business is easy with EvolveByte. Our plans are
+              flexible, so you can contact us anytime to discuss your growing
+              business needs, and we will accommodate you within 24 hours.
             </p>
           )}
         </div>

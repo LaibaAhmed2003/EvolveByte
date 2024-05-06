@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import logo from "../media/logo/Whitelogo.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,11 +15,15 @@ const Navbar = () => {
     <>
       <nav className={`navbar-container ${showMenu ? "show" : ""}`} id="navbar">
         <div className="logo-container">
-          <h2>EvolveByte</h2>
+          <img src={logo} alt="" />
+          <div className="menu-icon" onClick={toggleMenu}>
+            <FontAwesomeIcon
+              icon={showMenu ? faTimes : faBars}
+              className="fabars"
+            />
+          </div>
         </div>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={showMenu ? faTimes : faBars} />
-        </div>
+
         <div className="navlinksContainer">
           <Link smooth to="#process" className="navlink">
             Process
@@ -34,7 +39,7 @@ const Navbar = () => {
             FAQs
           </Link>
           <button className="btn">
-            <Link smooth to="#getStarted" className="navlink">
+            <Link smooth to="#getStarted" className="navlink" id="getstar">
               Get Started
             </Link>
           </button>

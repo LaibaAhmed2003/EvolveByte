@@ -11,17 +11,22 @@ const Hero = () => {
           autoPlay
           muted
           loop
-          style={{ opacity: "0.3" }}
+          style={{ opacity: "0.2" }}
         ></video>
       </div>
       <div className="hero-content">
         <h1>
-          The easiest way to
-          <br /> grow sales with <span style={{ color: "yellow" }}>SEO.</span>
+          Turn your brand into a <br />
+          <span style={{ color: "yellow", fontWeight: "500" }}>
+            6 figure{" "}
+          </span>{" "}
+          sales channel.
+          {/* The easiest way to
+          <br /> grow sales with <span style={{ color: "yellow" }}>SEO.</span> */}
         </h1>
         <h5>
-          Conversion-focused SEO and content marketing for a simple monthly
-          rate.
+          We help you get more qualified traffic, sales and revenue through
+          content-driven Website & LinkedIn Growth.
         </h5>
 
         <Link smooth to="#pricing" className="navlink">
