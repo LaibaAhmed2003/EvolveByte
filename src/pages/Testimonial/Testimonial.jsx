@@ -1,4 +1,4 @@
-import Image1 from "../media/test1.jpeg";
+import Image1 from "../../media/test1.jpeg";
 
 const Testimonial = () => {
   return (
@@ -21,8 +21,10 @@ const Testimonial = () => {
             </div>
           </div>
           <p>
-          ” The best investment we’ve made so far. They made rapid turn around, highlighting our strengths and weaknesses. In a short time, their marketing strategy and SEO services started showing us clear results. “
-
+            ” The best investment we’ve made so far. They made rapid turn
+            around, highlighting our strengths and weaknesses. In a short time,
+            their marketing strategy and SEO services started showing us clear
+            results. “
           </p>
         </div>
         <div className="test">
@@ -36,7 +38,10 @@ const Testimonial = () => {
             </div>
           </div>
           <p>
-          ” They brought a great output and stayed consistent throughout the workflow. This is not the first time we collaborated with EvolveByte for SEO & content marketing. Everytime they prove to be quick, transparent and more efficient. “
+            ” They brought a great output and stayed consistent throughout the
+            workflow. This is not the first time we collaborated with EvolveByte
+            for SEO & content marketing. Everytime they prove to be quick,
+            transparent and more efficient. “
           </p>
         </div>
         <div className="test">
@@ -46,11 +51,16 @@ const Testimonial = () => {
             </div>
             <div className="name">
               <h3 className="name">John doe</h3>
-              <h4 className="profession">(- Fernando Project Manager, MPH Club)</h4>
+              <h4 className="profession">
+                (- Fernando Project Manager, MPH Club)
+              </h4>
             </div>
           </div>
           <p>
-          ” We certainly got the best branding strategy we could ever have. It enhanced our overall revenue and we started getting more loyal customers. The team focused on maximizing our ROI with many data-driven strategies & unmatched support. “
+            ” We certainly got the best branding strategy we could ever have. It
+            enhanced our overall revenue and we started getting more loyal
+            customers. The team focused on maximizing our ROI with many
+            data-driven strategies & unmatched support. “
           </p>
         </div>
         <div className="test">

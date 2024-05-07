@@ -1,9 +1,9 @@
-import Neha from "../media/Team/Neha.png";
-import Laiba from "../media/Team/Laiba.png";
-import Jazbia from "../media/Team/Jazbia.png";
-import AliMustafa from "../media/Team/AliMustafa.png";
-import HassanAsgar from "../media/Team/HassanAsgar.png";
-import Other from "../media/Team/Other.png";
+import Neha from "../../media/Team/Neha.png";
+import Laiba from "../../media/Team/Laiba.png";
+import Jazbia from "../../media/Team/Jazbia.png";
+import AliMustafa from "../../media/Team/AliMustafa.png";
+import HassanAsgar from "../../media/Team/HassanAsgar.png";
+import Other from "../../media/Team/Other.png";
 
 const Team = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../media/herovideo.mp4";
+import video from "../../media/herovideo.mp4";
 import { HashLink as Link } from "react-router-hash-link";
 const Hero = () => {
   return (
@@ -21,8 +21,6 @@ const Hero = () => {
             6 figure{" "}
           </span>{" "}
           sales channel.
-          {/* The easiest way to
-          <br /> grow sales with <span style={{ color: "yellow" }}>SEO.</span> */}
         </h1>
         <h5>
           We help you get more qualified traffic, sales and revenue through

@@ -3,7 +3,6 @@ const Services = () => {
     <div className="Services-container" id="services">
       <p className="heading">Services</p>
       <h2 className="second-heading" style={{ padding: "20px 0px 10px 0px" }}>
-        {/* how we help <span>brands grow</span> with SEO? */}
         Attract - <span>Engage</span> - Convert
       </h2>
       <p style={{ padding: "0px 0px 20px 0px" }}>
@@ -34,17 +33,6 @@ const Services = () => {
           <br />
           <h4 className="invest">⤷ Investment Required: $700 - $1500/Month</h4>
         </div>
-
-        {/* <div className="">
-          <h3 className="service-name">SEO</h3>
-          <p>➜ Onpage SEO</p>
-          <p>➜ Offpage SEO</p>
-          <p>➜ Technical SEO</p>
-          <p>➜ SEO Articles & Blog posts</p>
-          <p>➜ Blog management</p>
-          <p>➜ Backlinking</p>
-          <p>⤷ Investment Required: $700 - $1100/Month</p>
-        </div> */}
 
         <div className="">
           <h3 className="service-name">Linkedin</h3>

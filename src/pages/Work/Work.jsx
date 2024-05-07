@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
-import Laura from "../media/LauraEnzor.jpg";
+import Laura from "../../media/LauraEnzor.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 

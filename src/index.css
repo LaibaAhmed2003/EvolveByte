@@ -193,7 +193,7 @@ span {
   background: radial-gradient(circle,#000000, #2a2a2a);
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: fit-content;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -316,18 +316,21 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
+  width: fit-content;
 }
 .second-heading {
   padding: 12px 0px;
   font-size: 38px;
   font-weight: 400;
 }
+
+
 .project-image {
   margin-top: 30px;
   width: 350px;
   height: 400px;
-  background-color: rgb(6, 6, 6);
+  background-color: rgb(242, 190, 18);
   border: 1px solid grey;
   clip-path: polygon(
     0 0,
@@ -340,6 +343,8 @@ span {
   border-radius: 10px;
   cursor: pointer;
   /* padding: 10px; */
+  opacity: 0.6;
+  
 }
 .projects-maincontainer {
   display: flex;
@@ -361,7 +366,8 @@ span {
 /* Service Section styling starts here */
 .Services-container {
   padding: 0;
-  width: 110%;
+  width: 100%;
+  /* width: fit-content; */
   height: fit-content;
   text-align: center;
 }
@@ -424,7 +430,8 @@ span {
 
 /* VideoSection starts here */
 .VideoSection-container{
-  width: 105%;
+  /* width: 105%; */
+  width: fit-content;
   padding: 5% 20%;
 }
 .videosec-innerdev{
@@ -1373,7 +1380,7 @@ span {
   padding: 4px 0px;
 }
 .trdsec {
-  border-top: 1px solid rgb(86, 85, 85);
+  border-top: 1px solid rgb(0, 0, 0);
   height: 0.5vh;
   display: flex;
   align-items: center;
@@ -1504,7 +1511,12 @@ span {
   color: rgb(86, 85, 85);
 } */
 /* Footer styling ends here */
+/* Media query for Tablets */
+@media (min-width: 500px) and (max-width: 700px){
 
+}
+
+/* Media Query for phone screens */
 @media (min-width: 300px) and (max-width: 500px) {
 
   .hero-container{

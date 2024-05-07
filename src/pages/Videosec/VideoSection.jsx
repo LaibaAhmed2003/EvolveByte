@@ -1,4 +1,4 @@
-import Laura from "../media/LauraEnzor.jpg";
+import Laura from "../../media/LauraEnzor.jpg";
 
 const VideoSection = () => {
   return (

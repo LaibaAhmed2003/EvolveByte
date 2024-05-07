@@ -46,20 +46,26 @@ const FAQs = () => {
               Most marketing agencies offer all-in-one services that require
               large budgets and take time to yield visible results.
               <br />
+              <br />
               For example, they may urge you to invest heavily in expensive
               marketing strategies such as paid ads and email marketing, without
               having an actual estimation about results.
+              <br />
               <br />
               At EvolveByte, we have a proven approach for B2B businesses that
               allows you to invest less and achieve the maximum results
               possible.
               <br />
+              <br />
               We attract, engage, and convert your target audience using the
               most effective marketing approaches.
               <br />
+              <br />
               No paid ads,
               <br />
+              <br />
               No complex sales funnel,
+              <br />
               <br />
               No big marketing budget is required here.
             </p>
@@ -101,16 +107,20 @@ const FAQs = () => {
               LinkedIn is one of the highest-converting marketing channels on
               the planet. When you look at the stats, it's pretty wild.
               <br />
+              <br />
               LinkedIn’s user base of over 800 million professionals offers vast
               networking possibilities that can lead to business opportunities.
+              <br />
               <br />
               Being consistent on LinkedIn can establish you as an industry
               expert, attracting potential clients among LinkedIn’s user base
               actively seeking industry insights.
               <br />
+              <br />
               LinkedIn Sales Navigator can enhance lead generation efforts, with
               LinkedIn claiming a 17% higher win rate when leads are sourced
               through the platform.
+              <br />
               <br />
               Sharing links on LinkedIn can enhance SEO, leveraging its high
               domain authority to boost your site's visibility in search

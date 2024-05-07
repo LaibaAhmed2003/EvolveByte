@@ -1,4 +1,4 @@
-import Video1 from "../media/timelinevideo1.mp4";
+import Video1 from "../../media/timelinevideo1.mp4";
 import React, { useEffect, useRef, useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -15,7 +15,7 @@ const Process2 = () => {
       setProgressHeight(percentage);
 
       // Calculate the position of the ring based on progress height
-      const ringOffset = 0; // Adjust the distance from the progress bar
+      const ringOffset = 0;
       setRingTop((percentage / 100) * progressBarRect.height - ringOffset);
     }
   };
@@ -37,11 +37,6 @@ const Process2 = () => {
     <div className="process-con" id="process">
       <p className="heading">PROCESS</p>
       <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
-        {/* <span>
-          Collaboration is easy
-          <br />
-        </span>
-        with our tech-enabled process. */}
         How does this <span>work?</span>
       </h2>
       <div

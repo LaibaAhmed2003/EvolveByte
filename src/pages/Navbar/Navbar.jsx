@@ -2,7 +2,7 @@ import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import logo from "../media/logo/Whitelogo.png";
+import logo from "../../media/logo/Whitelogo.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,13 +28,12 @@ const Navbar = () => {
           <Link smooth to="#process" className="navlink">
             Process
           </Link>
-          <Link to="" className="navlink">
+          <Link to="#work" className="navlink">
             Results
           </Link>
           <Link smooth to="#pricing" className="navlink">
             Pricing
           </Link>
-
           <Link smooth to="#faqs" className="navlink">
             FAQs
           </Link>
