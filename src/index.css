@@ -25,42 +25,6 @@ span {
   color: yellow;
 }
 
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5% 6%;
-  background-color: #1212128b;
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-bottom: 0.1px solid rgb(55, 55, 55);
-  z-index: 1;
-  backdrop-filter: blur(12px);
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 100px;
-}
-
-.logo-container img {
-  font-weight: 800;
-  height: 70px;
-  width: 200px;
-}
-
-.navlink {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-weight: 600;
-  padding: 0px 13px;
-  font-size: 16px;
-}
 
 
 .btn {
@@ -91,11 +55,9 @@ span {
   color: black;
 }
 
-.menu-icon {
-  display: none;
-}
 
-@media (min-width: 309px) and (max-width: 600px) {
+
+/* @media (min-width: 309px) and (max-width: 600px) {
   .navlinksContainer{
     display: none;
   }
@@ -140,10 +102,10 @@ span {
   }
  
   .navbar-container.show {
-    /* gap: 40;  */
+
     display: inline;
     padding: 0;
-    /* margin-right: 20px; */
+   
   }
   
   .menu-icon {
@@ -160,7 +122,6 @@ span {
   .navlinksContainer {
     display: flex;
     flex-direction: column;
-    /* background-color: rgba(0, 0, 0, 0.269); */
     color: rgba(44, 44, 44, 0);
     width: 100vw;
     height: 100vh;
@@ -177,18 +138,18 @@ span {
   .navlinksContainer button {
    display: none;
   }
-}
+} */
 
 /* Navbar styling ends here */
 /* Home page styling starts here */
-.home {
+/* .home {
   margin-top: 5%;
   padding: 0;
-}
+} */
 
 /* Home page styling ends here */
 /* Hero section styling starts here */
-.hero-container {
+/* .hero-container {
   background: #141414; 
   background: radial-gradient(circle,#000000, #2a2a2a);
   position: relative;
@@ -211,7 +172,7 @@ span {
   background: linear-gradient(
     rgba(14, 14, 14, 0.7),
     rgba(0, 0, 0, 0.235)
-  ); /* Adjust opacity as needed */
+  ); 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -243,7 +204,7 @@ span {
   line-height: 1;
   padding: 20px;
   font-weight: 400;
-}
+} */
 
 .Seebtn {
   display: inline-block;
@@ -292,7 +253,7 @@ span {
   width: 200px;
   margin: 24px;
   /* padding: 20px; */
-  border: 2px solid rgb(252, 252, 252);
+  /* border: 2px solid rgb(252, 252, 252); */
 }
 
 @keyframes slide {
@@ -381,7 +342,7 @@ span {
 }
 .services div {
   text-align: left;
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 1.5rem;
   width: 330px;
   margin: 10px;
@@ -390,7 +351,6 @@ span {
 .services div:hover {
   cursor: pointer;
   border-color: yellow;
-
   -webkit-text-fill-color: inherit;
   background-image: radial-gradient(
     circle at 50% 50%,
@@ -410,27 +370,27 @@ span {
 }
 .services div p {
   color: rgb(189, 188, 188);
-  font-weight: 700;
-  padding: 5px 0px;
+  font-weight: 300;
+  padding: 10px 0px;
 }
 .service-name{
   color: yellow;
 }
 .services .invest{
-  background-color: yellow;
-  color: black;
-  font-weight: 800;
-  text-align: center;
-  padding: 8px;
-  margin-top: -5px;
+  background-color: rgba(0, 0, 0, 0.838);
+  color: rgb(213, 213, 59);
+  font-weight: 600;
+  text-align: left;
+  /* padding: 8px; */
+  /* margin-top: -5px; */
   font-size: 13px;
   border-radius: 10px;
+  /* border: 0.5px solid white; */
 }
 /* Service Section styling ends here */
 
 /* VideoSection starts here */
-.VideoSection-container{
-  /* width: 105%; */
+/* .VideoSection-container{
   width: fit-content;
   padding: 5% 20%;
 }
@@ -477,7 +437,7 @@ span {
   font-weight: 800;
   color: yellow;
   cursor: pointer;
-}
+} */
 
 /* VideoSection ends here */
 
@@ -1550,7 +1510,7 @@ span {
       width: 200px;
       margin: 24px;
       /* padding: 20px; */
-      border: 2px solid rgb(252, 252, 252);
+      /* border: 2px solid rgb(252, 252, 252); */
     
   }
   .Work-Container {

@@ -1,0 +1,149 @@
+/* Pricing section css file */
+
+#pricing{
+    display: none;
+  }
+  .Pricing-Container {
+    display: none;
+    text-align: center;
+    padding: 30px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricecard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    padding: 40px 60px;
+  }
+  .pricecard {
+    clip-path: polygon(
+      0 0,
+      calc(100% - 1rem) 0,
+      100% calc(0% + 1rem),
+      100% 100%,
+      calc(0% + 1rem) 100%,
+      0% calc(100% - 1rem)
+    );
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    width: 400px;
+    height: 740px;
+    border-radius: 10px;
+  }
+  .part1 {
+    padding: 20px 0px;
+  }
+  .bestbtn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  .outline {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 0px;
+  }
+  .description {
+    color: grey;
+  }
+  .startingat {
+    color: rgb(74, 73, 73);
+  }
+  .part2 {
+    padding: 20px 0px;
+  }
+  .Price {
+    padding: 8px 0px;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .smalldes {
+    margin: 15px 0px;
+  }
+  .plussign {
+    background-color: #030303;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 3px 10px;
+    transform: rotate(80deg);
+  }
+
+  .pricebtn {
+    margin: 10px 0px;
+    display: inline-block;
+    position: relative;
+    clip-path: polygon(
+      0 0,
+      calc(100% - 1rem) 0,
+      100% calc(0% + 1rem),
+      100% 100%,
+      calc(0% + 1rem) 100%,
+      0% calc(100% - 1rem)
+    );
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, width 0.3s ease; /* Added width transition */
+    padding: 18px 24px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: 400px;
+  }
+  
+  .pricebtn:hover {
+    width: 410px; /* Fixed width on hover */
+  }
+  
+  .pricebtn.clicked {
+    width: 500px; /* Fixed width after clicking */
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, width 0.3s ease; /* Added width transition */
+    width: fit-content;
+  }
+  
+  .filters:hover {
+    width: fit-content; /* Fixed width on hover */
+  }
+  
+  .Activefilter {
+    background-color: yellow;
+    color: black;
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .Activefilter.clicked {
+    width: 100px; /* Fixed width after clicking */
+  }

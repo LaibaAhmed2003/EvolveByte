@@ -1,0 +1,41 @@
+/* Clients section css */
+.clients-container {
+    padding: 20px 0px;
+    background-color: #030303;
+    color: white;
+    text-align: center;
+    height: 200px;
+    overflow: hidden; 
+    margin: 50px 0px;
+    width: 100%;
+  }
+  
+  .clients-container .clients-names {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .clientsec {
+    display: flex;
+    animation: slide 20s linear infinite;
+  }
+  
+  .clientsec img {
+    font-weight: bold;
+    height: 90px;
+    width: 200px;
+    margin: 24px;
+    /* border: 2px solid rgb(252, 252, 252); */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(
+        -50%
+      ); /* Adjust percentage based on the number of sets of clients */
+    }
+  }

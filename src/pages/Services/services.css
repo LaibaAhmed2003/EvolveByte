@@ -1,0 +1,64 @@
+/* Service section css */
+
+.Services-container {
+    padding: 0;
+    width: 100%;
+    /* width: fit-content; */
+    height: fit-content;
+    text-align: center;
+  }
+  .services {
+    display: flex;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services div {
+    text-align: left;
+    border: 0.5px solid grey;
+    border-radius: 1.5rem;
+    width: 330px;
+    margin: 10px;
+    padding: 24px;
+  }
+  .services div:hover {
+    cursor: pointer;
+    border-color: yellow;
+    -webkit-text-fill-color: inherit;
+    background-image: radial-gradient(
+      circle at 50% 50%,
+      rgba(244, 240, 28, 0.441),
+      rgba(0, 0, 0, 0)
+    );
+    background-clip: padding-box;
+    border-radius: 1.5rem;
+    border-color: yellow;
+    filter: brightness(100%);
+    color: white;
+  }
+  .services div h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 400;
+  }
+  .services div p {
+    color: rgb(189, 188, 188);
+    font-weight: 300;
+    padding: 5px 0px;
+  }
+  .service-name{
+    color: yellow;
+  }
+  .services .invest{
+    background-color: rgba(0, 0, 0, 0.838);
+    color: rgb(213, 213, 59);
+    font-weight: 600;
+    text-align: left;
+    /* padding: 8px; */
+    /* margin-top: -5px; */
+    font-size: 13px;
+    border-radius: 10px;
+    /* border: 0.5px solid white; */
+  }

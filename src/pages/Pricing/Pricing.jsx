@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./pricing.css";
+
 const Pricing = () => {
   const [showMonthly, setShowMonthly] = useState(true);
   const handleMonthlyClick = () => {

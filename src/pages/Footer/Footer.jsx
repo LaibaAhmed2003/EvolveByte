@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -5,16 +7,29 @@ const Footer = () => {
         <div className="firstsec">
           <div className="content">
             <h2>
-              Book a call now. Start publishing
-              <br /> top-tier content tomorrow.
+              Book a call now.
+              <br /> Let's talk growth
             </h2>
           </div>
           <div className="calltoaction">
             <p>
-              Speak to a specialist to get a<br /> personalized content
-              strategy.
+              We'll show you the roadmap for expanding <br></br> your business
+              with proven marketing strategies.
             </p>
-            <button className="Seebtn">See Plans</button>
+            <button className="Seebtn">
+              <Link
+                to="https://calendly.com/evolvebyte/meeting"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  listStyle: "none",
+                  color: "black",
+                  fontWeight: "600",
+                }}
+              >
+                Book Call
+              </Link>
+            </button>
           </div>
         </div>
         <div className="sndsec">

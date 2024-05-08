@@ -1,6 +1,7 @@
 import Video1 from "../../media/timelinevideo1.mp4";
 import React, { useEffect, useRef, useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import "./process.css";
 
 const Process2 = () => {
   const [progressHeight, setProgressHeight] = useState(0);
@@ -35,8 +36,11 @@ const Process2 = () => {
 
   return (
     <div className="process-con" id="process">
-      <p className="heading">PROCESS</p>
-      <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
+      <p className="heading">Process</p>
+      <h2
+        className="second-heading"
+        style={{ padding: "30px 0px 60px 0px", textTransform: "capitalize" }}
+      >
         How does this <span>work?</span>
       </h2>
       <div
@@ -47,7 +51,7 @@ const Process2 = () => {
       >
         <div className="process-left">
           <div className="text-item">
-            <h3>1- Strategy Call</h3>
+            <h3>Strategy Call</h3>
             <p>
               We will discuss your all requirements to develop a strategy that
               combines your business objectives with the needs of your target
@@ -68,7 +72,7 @@ const Process2 = () => {
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>3- Copywriting & SEO</h3>
+            <h3>Copywriting & SEO</h3>
             <p>
               All types of high quality designs and websites are useless unless
               you have words that convert your targeted audience. With top-notch
@@ -89,7 +93,7 @@ const Process2 = () => {
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>5- Weekly Meetings & Progress Reporting:</h3>
+            <h3>Weekly Meetings & Progress Reporting</h3>
             <p>
               We would love to have weekly meetings with you to get to know your
               thoughts and a detailed discussion on how we can improve further.
@@ -122,7 +126,7 @@ const Process2 = () => {
           </div>
 
           <div className="text-item">
-            <h3>2- Website design and development</h3>
+            <h3>Website Design & Development</h3>
             <p>
               Once we’ve gathered all requirements we’ll offer you consultation
               about your website. Our team will build a highly converting
@@ -144,7 +148,7 @@ const Process2 = () => {
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>4- LinkedIn growth</h3>
+            <h3>LinkedIn Growth</h3>
             <p>
               Why spend thousands of $$$ on paid ads when you can generate the
               same results for almost half the amount? With the proven LinkedIn
@@ -165,7 +169,7 @@ const Process2 = () => {
         </div>
       </div>
       <Link smooth to="#pricing" className="navlink mtop">
-        <button className="Seebtn">See Plans</button>
+        <button className="Seebtn">Book A Call</button>
       </Link>
     </div>
   );

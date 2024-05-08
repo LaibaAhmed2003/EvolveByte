@@ -10,7 +10,7 @@ const Team = () => {
     <div className="Team-Container">
       <p className="heading">TEAM MEMBERS</p>
       <h2 className="second-heading" style={{ padding: "30px 0px 10px 0px" }}>
-        <span>Brains</span> behind EvolveByte.
+        <span>Brains</span> Behind EvolveByte.
       </h2>
       <p style={{ padding: "0px 0px 20px 0px" }}>
         Combining years of experience in tech & marketing for IT businesses to
@@ -21,7 +21,7 @@ const Team = () => {
           <img src={Neha} alt="" />
           <div className="name-des">
             <h5>Neha Menahil</h5>
-            <h3>SEO Copywriter, LinkedIn expert</h3>
+            <h3>LinkedIn Growth Expert</h3>
           </div>
         </div>
 
@@ -53,7 +53,7 @@ const Team = () => {
           <img src={HassanAsgar} alt="" />
           <div className="name-des">
             <h5>Hassan Asgar</h5>
-            <h3>Social media manager</h3>
+            <h3>Social Media Manager</h3>
           </div>
         </div>
         <div className="member">

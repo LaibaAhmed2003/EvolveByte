@@ -12,6 +12,7 @@ import GetStarted from "../Getstarted/GetStarted";
 import Lowernavbar from "../../Lowernavbar";
 import FAQs from "../FAQs/FAQs";
 import Footer from "../Footer/Footer";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
       <GetStarted />
       <Team />
       <FAQs />
-      <Calendly />
+      {/* <Calendly /> */}
       <Footer />
     </div>
   );

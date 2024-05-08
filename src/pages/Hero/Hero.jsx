@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../../media/herovideo.mp4";
 import { HashLink as Link } from "react-router-hash-link";
+import "./hero.css";
 const Hero = () => {
   return (
     <div className="hero-container" id="hero">
@@ -16,11 +17,13 @@ const Hero = () => {
       </div>
       <div className="hero-content">
         <h1>
-          Turn your brand into a <br />
-          <span style={{ color: "yellow", fontWeight: "500" }}>
-            6 figure{" "}
+          Turn Your Brand Into A <br />
+          <span
+            style={{ color: "yellow", fontWeight: "500", marginTop: "15px" }}
+          >
+            6 Figure{" "}
           </span>{" "}
-          sales channel.
+          Sales Channel.
         </h1>
         <h5>
           We help you get more qualified traffic, sales and revenue through
@@ -28,7 +31,7 @@ const Hero = () => {
         </h5>
 
         <Link smooth to="#pricing" className="navlink">
-          <button className="Seebtn">See Plans</button>
+          <button className="Seebtn">Learn More</button>
         </Link>
       </div>
     </div>

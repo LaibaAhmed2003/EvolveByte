@@ -1,0 +1,108 @@
+/* Work section css */
+
+.Work-Container {
+    padding: 2% 10% 5% 10%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    width: fit-content;
+  }
+  .second-heading {
+    padding: 12px 0px;
+    font-size: 38px;
+    font-weight: 400;
+  }
+  
+  
+  .project-image {
+    margin-top: 30px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(242, 190, 18);
+    border: 1px solid grey;
+    clip-path: polygon(
+      0 0,
+      calc(100% - 1rem) 0,
+      100% calc(0% + 1rem),
+      100% 100%,
+      calc(0% + 1rem) 100%,
+      0% calc(100% - 1rem)
+    );
+    border-radius: 10px;
+    cursor: pointer;
+    /* padding: 10px; */
+    opacity: 0.6;
+    
+  }
+  .projects-maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+  }
+  .links-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .project-link {
+    color: grey;
+    padding: 20px 0px;
+  }
+
+
+  .workpro-container{
+    width: fit-content;
+    /* padding: 5% 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .workpro-innerdev{
+    border: 2px solid grey;
+    margin: 40px 4px 4px 4px;
+  }
+  .workpro-img{
+    height: 300px;
+    width: 100%;
+    opacity: 0.3;
+  }
+  .caption{
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding: 13px;
+    margin-top: -5px;
+    font-size: 16px;
+  }
+  .leads-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  
+  .leads-contents h4{
+    font-size: 30px;
+    color: yellow;
+    font-weight: 900;
+  }
+  .leads-contents h5{
+    font-size: 13px;
+  
+  }
+  .video-para{
+    padding: 2%;
+  }
+  .case-link{
+    padding: 1px 2% 3% 2%;
+    font-weight: 800;
+    color: yellow;
+    cursor: pointer;
+  }

@@ -1,11 +1,15 @@
 import Image1 from "../../media/test1.jpeg";
+import "./testimonial.css";
 
 const Testimonial = () => {
   return (
     <div className="Testimonial-container" id="testimonial">
       <p className="heading">TESTIMONIAL</p>
-      <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
-        top brands
+      <h2
+        className="second-heading"
+        style={{ padding: "30px 0px 60px 0px", textTransform: "capitalize" }}
+      >
+        Top Brands
         <span> love </span>
         working with us.
       </h2>

@@ -8,7 +8,7 @@ const Calendly = () => {
     >
       <div style={{ backgroundColor: "black" }}>
         <iframe
-          src="https://calendly.com/laiba-sabahat9/15-min?month=2024-05"
+          src="https://calendly.com/evolvebyte/meeting"
           width="100%"
           height="800px"
           frameborder="0"

@@ -1,0 +1,51 @@
+/* Videosec css file */
+
+.VideoSection-container{
+    width: fit-content;
+    padding: 5% 20%;
+  }
+  .videosec-innerdev{
+    border: 2px solid grey;
+  }
+  .video-img{
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+  }
+  .caption{
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px;
+    margin-top: -5px;
+    font-size: 20px;
+  }
+  .leads-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  
+  
+  .leads-contents h4{
+    font-size: 40px;
+    color: yellow;
+    font-weight: 900;
+  }
+  .leads-contents h5{
+    font-size: 15px;
+  
+  }
+  .video-para{
+    padding: 2%;
+  }
+  .case-link{
+    padding: 1px 2% 3% 2%;
+    font-weight: 800;
+    color: yellow;
+    cursor: pointer;
+  }
+  

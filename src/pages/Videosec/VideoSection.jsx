@@ -1,4 +1,5 @@
 import Laura from "../../media/LauraEnzor.jpg";
+import "./videosec.css";
 
 const VideoSection = () => {
   return (

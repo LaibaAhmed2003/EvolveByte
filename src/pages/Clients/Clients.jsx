@@ -1,16 +1,17 @@
-import ainvent from "../../media/Brands/ainvent.jpg";
-import chase from "../../media/Brands/Chasecreative.jpg";
-import flat from "../../media/Brands/Flatbed.jpg";
-import flying from "../../media/Brands/Flyingtoucan.jpg";
-import Grow from "../../media/Brands/Grow.jpg";
-import Tiberius from "../../media/Brands/Tiberius.jpg";
-import UAATEAM from "../../media/Brands/UAATEAM.jpg";
+import ainvent from "../../media/Brand-without-background/ainvent.png";
+import chase from "../../media/Brand-without-background/Chase_creative.png";
+import flat from "../../media/Brand-without-background/Flatbed.png";
+import flying from "../../media/Brand-without-background/Flyingtoucan.png";
+import Grow from "../../media/Brand-without-background/Grow_your_cashflow.png";
+import Tiberius from "../../media/Brand-without-background/Tiberius.png";
+import UAATEAM from "../../media/Brand-without-background/UAATEAM.png";
+import "./Clients.css";
 
 const Clients = () => {
   return (
     <div className="clients-container">
       <h2 className="second-heading">
-        Companies that <span>trust us.</span>
+        Companies That <span>Trust Us.</span>
       </h2>
       <div className="clients-names">
         <div className="clientsec">

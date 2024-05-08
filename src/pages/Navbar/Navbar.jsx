@@ -3,6 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../media/logo/Whitelogo.png";
+import "./navbar.css";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,14 +26,17 @@ const Navbar = () => {
         </div>
 
         <div className="navlinksContainer">
+          <Link smooth to="#work" className="navlink">
+            Results
+          </Link>
           <Link smooth to="#process" className="navlink">
             Process
           </Link>
-          <Link to="#work" className="navlink">
-            Results
+          <Link smooth to="#process" className="navlink">
+            Case Studies
           </Link>
-          <Link smooth to="#pricing" className="navlink">
-            Pricing
+          <Link smooth to="#testimonial" className="navlink">
+            Testimonial
           </Link>
           <Link smooth to="#faqs" className="navlink">
             FAQs
