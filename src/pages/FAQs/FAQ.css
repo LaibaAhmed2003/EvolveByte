@@ -1,0 +1,137 @@
+/* FAQ styles */
+
+.FAQ-container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 110px;
+    height: 100vh;
+  }
+  
+  .FAQ-sess1 {
+    width: 50%;
+  }
+  
+  .FAQ-sess1 p {
+    padding-bottom: 25px;
+  }
+  
+  .FAQ-sess1 button {
+    margin-left: -3px;
+  }
+  
+  .FAQ-sess2 {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 66%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+  }
+  
+  .FAQ-sess2 .question {
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+  }
+  
+  .FAQ-sess2 .question p {
+    font-size: 15px;
+    padding: 30px 0px;
+  }
+  
+  .FAQ-sess2 .question h3 {
+    /* line-height: 2; */
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  
+  .heading-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .arrow-down {
+    border: 1px solid grey;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 0.6rem 0.8rem;
+    border-radius: 100rem;
+    transition: transform 0.3s ease; /* Adding transition for smooth effect */
+  }
+  
+  .arrow-down:hover {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(40deg) skew(0deg, 0deg); /* Rotating towards left */
+    transform-style: preserve-3d;
+  }
+  
+
+  /* Mobile devices */
+  @media(min-width: 300px) and (max-width: 500px){
+  .FAQ-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  .FAQ-sess1 {
+    width: fit-content;
+  }
+  .FAQ-sess1 .second-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+  }
+  .FAQ-sess1 p{
+  display: none;
+  }
+  .FAQ-sess1 .btn{
+  display: none;
+  }
+  .FAQ-sess1 p {
+    padding-bottom: 25px;
+  }
+  .FAQ-sess1 button {
+    margin-left: -3px;
+  }
+  .FAQ-sess2 {
+    width: 90%;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+  }
+
+  .FAQ-sess2 .question {
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+  }
+
+  .FAQ-sess2 .question p {
+    font-size: 15px;
+    padding: 30px 0px;
+  }
+}
+
+@media(min-width: 500px) and (max-width: 970px){
+    .FAQ-container {
+      margin-left: 2px;
+      }
+      .FAQ-sess1 {
+        width: 40%;
+      }
+      .FAQ-sess2 {
+        width: 40%;
+        padding: 10px 40px;
+      }
+}
+
+
+
+  /*  */

@@ -1,0 +1,87 @@
+.footer-container {
+    background-color: yellow;
+    height: 113vh;
+    color: black;
+    padding: 40px 0px 0px 0px;
+  }
+  .firstsec {
+    background-color: black;
+    color: white;
+    height: 45vh;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 3rem;
+    clip-path: polygon(0 0, calc(94% - 2rem) 0, 100% calc(13% + 1rem), 100% 100%, calc(3% + 3rem) 102%, 0% calc(87% - 2rem));
+  
+}
+  .firstsec .content h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+  }
+  .firstsec .calltoaction {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: 150px;
+    left: 1000px;
+  }
+  .firstsec .calltoaction p {
+    margin-bottom: 9px;
+  }
+  .sndsec {
+    height: 30vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0px 100px;
+  }
+  .sndsec .text {
+    /* margin-left: -18%; */
+    color: #030303;
+  }
+  .sndsec .text h2 {
+    margin: 5px 0px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+  .links-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+  }
+  .links h2 {
+    color: rgb(86, 85, 85);
+    font-size: 15px;
+    font-weight: 200;
+    margin: 10px 0px;
+  }
+  .links a {
+    text-decoration: none;
+    color: black;
+    padding: 4px 0px;
+  }
+  .trdsec {
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+  }
+  .terms a {
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+    margin: 4px;
+    padding: 4px 0px;
+  }
+  .copyright p {
+    color: rgb(86, 85, 85);
+  }

@@ -4,6 +4,7 @@ import Jazbia from "../../media/Team/Jazbia.png";
 import AliMustafa from "../../media/Team/AliMustafa.png";
 import HassanAsgar from "../../media/Team/HassanAsgar.png";
 import Other from "../../media/Team/Other.png";
+import "./team.css";
 
 const Team = () => {
   return (

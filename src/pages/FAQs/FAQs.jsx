@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import "./FAQ.css";
 
 const FAQs = () => {
   const [showContent1, setShowContent1] = useState(false);

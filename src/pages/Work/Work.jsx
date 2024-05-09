@@ -1,7 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link";
 import Laura from "../../media/LauraEnzor.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import "./work.css";
 
 const Work = () => {
@@ -12,30 +10,6 @@ const Work = () => {
         Our <span>Results</span> Speak For Themselves.
       </h2>
       <div className="projects-maincontainer">
-        {/* <div className="project-card">
-          <img className="project-image" src={Laura} alt="" />
-          <div className="links-sec">
-            <h3 className="project-link">projectlahd.com</h3>
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </div>
-        </div> */}
-
-        {/* <div className="project-card">
-          <img className="project-image" src={Laura} alt="" />
-          <div className="links-sec">
-            <h3 className="project-link">projectlahd.com</h3>
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </div>
-        </div>
-
-        <div className="project-card">
-          <img className="project-image" src={Laura} alt="" />
-          <div className="links-sec">
-            <h3 className="project-link">projectlahd.com</h3>
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </div>
-        </div> */}
-
         <div className="workpro-container" id="videosec">
           <div className="workpro-innerdev">
             <img src={Laura} alt="Laura Enzor" className="workpro-img" />

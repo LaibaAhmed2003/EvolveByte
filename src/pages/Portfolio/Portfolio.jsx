@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import Footer from "../Footer/Footer";
 import Client from "../Clients/Clients";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +17,7 @@ const Portfolio = () => {
           </div>
           <div className="pcontent">
             <h2>
-              Website <br /> Design & Build
+              Website <br /> <span>Design & Build</span>
             </h2>
             <p>
               Transform your recruitment website into a digital shop window to
@@ -24,9 +25,10 @@ const Portfolio = () => {
               your audiences and admirers into clients, candidates, and future
               employees.
             </p>
-            <h5>
+            {/* <h5 className="">
               EXPLORE <FontAwesomeIcon icon={faAngleRight} />
-            </h5>
+            </h5> */}
+            <button className="Seebtn">Explore</button>
           </div>
         </div>
         <div className="first-b-con">
@@ -82,12 +84,15 @@ const Portfolio = () => {
           <span style={{ fontWeight: "600" }}>new website </span>could do for
           you.
         </h2>
-        <h5>
-          ENQUIRE NOW <FontAwesomeIcon icon={faAngleRight} />
-        </h5>
+        <button className="Seebtn" style={{ marginTop: "40px" }}>
+          Enquire Now
+        </button>
       </div>
+      <Client />
       <div className="portfoliosection">
-        <h3>Related Projects</h3>
+        <h3>
+          Related <span style={{ fontWeight: 500 }}>Projects</span>
+        </h3>
         <div className="portfolios">
           <div className="project1-details">
             <img
@@ -124,14 +129,16 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="allprojectsec">
-          <h5>
+          {/* <h5>
             ALL PROJECTS <FontAwesomeIcon icon={faAngleRight} />
-          </h5>
+          </h5> */}
+          <button className="Seebtn" style={{ marginBottom: "60px" }}>
+            All Projects
+          </button>
           <hr />
         </div>
       </div>
-      <Client />
-      <div className="support-container">
+      {/* <div className="support-container">
         <h2>We can also support you with…</h2>
         <div className="support-innersec">
           <div className="seo">
@@ -162,7 +169,8 @@ const Portfolio = () => {
             </h5>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Footer />
     </div>
   );
 };

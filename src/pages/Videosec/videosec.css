@@ -5,7 +5,7 @@
     padding: 5% 20%;
   }
   .videosec-innerdev{
-    border: 2px solid grey;
+    border: 1px solid grey;
   }
   .video-img{
     height: 400px;
@@ -28,8 +28,6 @@
     text-align: center;
     padding: 2% 0%;
   }
-  
-  
   .leads-contents h4{
     font-size: 40px;
     color: yellow;
@@ -37,7 +35,6 @@
   }
   .leads-contents h5{
     font-size: 15px;
-  
   }
   .video-para{
     padding: 2%;
@@ -49,3 +46,14 @@
     cursor: pointer;
   }
   
+  @media(min-width: 500px) and (max-width: 970px){
+    .VideoSection-container{
+      width: fit-content;
+      padding: 5% 5%;
+    }
+    .video-img{
+      height: 400px;
+      width: 100%;
+      opacity: 0.3;
+    }
+  }

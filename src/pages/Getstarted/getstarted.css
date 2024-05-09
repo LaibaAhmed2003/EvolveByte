@@ -1,0 +1,98 @@
+/* get started section css here */
+
+.GetStarted-Container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .getstarted-innercontainer {
+    background-color: #2869f6;
+    color: white;
+    padding: 120px 20px 20px 20px;
+    width: 80vw;
+    height: 110vh;
+    clip-path: polygon(
+      0 0,
+      calc(94% - 2rem) 0,
+      100% calc(9% + 2rem),
+      100% 116%,
+      calc(5% + 3rem) 104%,
+      0% calc(85% - 1rem)
+    );
+    border-radius: 3rem;
+  }
+  .strategies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .strategy {
+    width: 320px;
+    height: 380px;
+    border-radius: 50px;
+    background-color: #030303;
+    text-align: left;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .strategy h3 {
+    color: #2869f6;
+    padding-bottom: 8px;
+  }
+  .big-letter-container {
+    background-color: transparent;
+    width: 320px;
+    height: 300px;
+    text-align: center;
+  }
+  .big-letter {
+    font-size: 18rem;
+    transform-style: preserve-3d;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2869f6;
+    line-height: 1;
+    transform: translateY(5%);
+    animation: magicAnimation 3s ease-in-out infinite;
+  }
+  @keyframes magicAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20%);
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    75% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20%);
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 970px){
+    .getstarted-innercontainer{
+        height: fit-content;
+    }
+     
+      .strategies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 40px;
+      }
+     
+  }

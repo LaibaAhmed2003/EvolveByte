@@ -1010,146 +1010,9 @@ span {
 /* Calendly styling ends here */
 
 /* Getstarted section styling starts here */
-.GetStarted-Container {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.getstarted-innercontainer {
-  background-color: #2869f6;
-  color: white;
-  padding: 120px 20px 20px 20px;
-  width: 80vw;
-  height: 110vh;
-  clip-path: polygon(
-    0 0,
-    calc(94% - 2rem) 0,
-    100% calc(9% + 2rem),
-    100% 116%,
-    calc(5% + 3rem) 104%,
-    0% calc(85% - 1rem)
-  );
-  border-radius: 3rem;
-}
-.strategies-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 40px;
-}
-.strategy {
-  width: 320px;
-  height: 380px;
-  border-radius: 50px;
-  background-color: #030303;
-  text-align: left;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-.strategy h3 {
-  color: #2869f6;
-  padding-bottom: 8px;
-}
-.big-letter-container {
-  background-color: transparent;
-  width: 320px;
-  height: 300px;
-  text-align: center;
-}
-.big-letter {
-  font-size: 18rem;
-  transform-style: preserve-3d;
-  color: transparent;
-  text-align: center;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #2869f6;
-  line-height: 1;
-  transform: translateY(5%);
-  animation: magicAnimation 3s ease-in-out infinite;
-}
-@keyframes magicAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(-20%);
-  }
-  25% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  75% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(20%);
-  }
-}
+
 /* Getstarted section styling ends here */
 /* Team section styling starts here */
-.Team-Container {
-  text-align: center;
-  padding: 10% 0%;
-}
-.Team-members {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 0px;
-}
-
-.member img {
-  width: 300px;
-  height: 300px;
-  clip-path: polygon(
-    0 0,
-    calc(95% - 2rem) 0,
-    100% calc(5% + 2rem),
-    100% 116%,
-    calc(2% + 3rem) 109%,
-    0% calc(92% - 1rem)
-  );
-  border-radius: 2rem;
-  background: linear-gradient(
-    rgba(177, 151, 151, 0.7),
-    rgba(108, 30, 30, 0.4)
-  );
-  opacity: 0.8;
-}
-.member .name-des {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-.member .name-des h5 {
-  color: yellow;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  padding: 4px;
-  font-size: 18px;
-}
-.member .name-des h3{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  padding: 4px;
-  font-size: 15px;
-}
 
 /* Team section styling ends here */
 
@@ -1192,170 +1055,11 @@ span {
 
 /* FAQ styling starts here */
 
-.FAQ-container {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 30px 110px;
-  height: 100vh;
-}
-
-.FAQ-sess1 {
-  width: 50%;
-}
-
-.FAQ-sess1 p {
-  padding-bottom: 25px;
-}
-
-.FAQ-sess1 button {
-  margin-left: -3px;
-}
-
-.FAQ-sess2 {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  left: 66%;
-  transform: translateX(-50%);
-  padding: 10px 40px;
-}
-
-.FAQ-sess2 .question {
-  padding: 30px 0px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.596);
-}
-
-.FAQ-sess2 .question p {
-  font-size: 15px;
-  padding: 30px 0px;
-}
-
-.FAQ-sess2 .question h3 {
-  /* line-height: 2; */
-  line-height: 2;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-
-.heading-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.arrow-down {
-  border: 1px solid grey;
-  font-size: 20px;
-  font-weight: 100px;
-  padding: 0.6rem 0.8rem;
-  border-radius: 100rem;
-  transition: transform 0.3s ease; /* Adding transition for smooth effect */
-}
-
-.arrow-down:hover {
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(40deg) skew(0deg, 0deg); /* Rotating towards left */
-  transform-style: preserve-3d;
-}
 
 /* FAQ styling ends here */
 
 
-.footer-container {
-  background-color: yellow;
-  height: 113vh;
-  color: black;
-  padding: 40px 0px 0px 0px;
-}
-.firstsec {
-  background-color: black;
-  color: white;
-  height: 45vh;
-  margin: 50px;
-  padding: 50px;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 1rem) 0,
-    100% calc(0% + 1rem),
-    100% 100%,
-    calc(0% + 1rem) 100%,
-    0% calc(100% - 1rem)
-  );
-  border-radius: 3rem;
-}
-.firstsec .content h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1;
-}
-.firstsec .calltoaction {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  top: 150px;
-  left: 1000px;
-}
-.firstsec .calltoaction p {
-  margin-bottom: 9px;
-}
-.sndsec {
-  height: 30vh;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: 0px 100px;
-}
-.sndsec .text {
-  /* margin-left: -18%; */
-  color: #030303;
-}
-.sndsec .text h2 {
-  margin: 5px 0px;
-}
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
-}
-.links-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 100px;
-}
-.links h2 {
-  color: rgb(86, 85, 85);
-  font-size: 15px;
-  font-weight: 200;
-  margin: 10px 0px;
-}
-.links a {
-  text-decoration: none;
-  color: black;
-  padding: 4px 0px;
-}
-.trdsec {
-  border-top: 1px solid rgb(0, 0, 0);
-  height: 0.5vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 100px;
-}
-.terms a {
-  text-decoration: none;
-  color: rgb(86, 85, 85);
-  margin: 4px;
-  padding: 4px 0px;
-}
-.copyright p {
-  color: rgb(86, 85, 85);
-}
+
 /* Footer styling ends here */
 
 
@@ -1472,28 +1176,11 @@ span {
 } */
 /* Footer styling ends here */
 /* Media query for Tablets */
-@media (min-width: 500px) and (max-width: 700px){
 
-}
 
 /* Media Query for phone screens */
 @media (min-width: 300px) and (max-width: 500px) {
 
-  .hero-container{
-    padding: 0 6%;
-  }
-
-  .hero-content h1 {
-    font-size: 3rem;
-    margin: 0;
-    width: fit-content;
-  }
-  .hero-content h5 {
-    font-size: 1rem;
-    color: rgb(199, 196, 196);
-    line-height: 1.5;
-    padding: 20px;
-  }
   .clients-container .clients-names {
     display: flex;
     /* flex-wrap: wrap; */
@@ -1513,17 +1200,7 @@ span {
       /* border: 2px solid rgb(252, 252, 252); */
     
   }
-  .Work-Container {
-    padding: 0px 6%;
-    text-align: left;
-    margin-bottom: 40px;
-  }
-  .projects-maincontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+ 
 
   .process-con {
     text-align: center;
@@ -1716,68 +1393,6 @@ span {
     justify-content: center;
   }
 
-  .Team-Container {
-    text-align: center;
-    padding: 30px 0px 100px 0px;
-  }
-  .Team-members {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .FAQ-container {
-    /* width: 100%; */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 30px 110px; */
-    height: fit-content;
-    
-  }
-
-  .FAQ-sess1 {
-    width: fit-content;
-    /* margin-bottom: 60%; */
-
-  }
-  .FAQ-sess1 .second-heading{
-    text-align: center;
-    font-size: 30px;
-    padding: 0;
-  }
-.FAQ-sess1 p{
-  display: none;
-}
-.FAQ-sess1 .btn{
-  display: none;
-}
-  .FAQ-sess1 p {
-    padding-bottom: 25px;
-  }
-
-  .FAQ-sess1 button {
-    margin-left: -3px;
-  }
-
-  .FAQ-sess2 {
-    width: 90%;
-    position: absolute;
-    top: 80%;
-    left: 55%;
-    transform: translateX(-50%);
-    padding: 10px 40px;
-  }
-
-  .FAQ-sess2 .question {
-    padding: 30px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
-  }
-
-  .FAQ-sess2 .question p {
-    font-size: 15px;
-    padding: 30px 0px;
-  }
 
   .footer-container {
     background-color: yellow;
@@ -1916,3 +1531,5 @@ span {
     padding-bottom: 2%;
   }
 }
+
+
