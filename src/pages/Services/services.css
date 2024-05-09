@@ -9,7 +9,7 @@
   }
   .services {
     display: flex;
-    grid-column-gap: 1rem;
+    grid-column-gap: 1.5rem;
     grid-row-gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;

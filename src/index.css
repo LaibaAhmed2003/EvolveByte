@@ -271,7 +271,7 @@ span {
 
 /* Work Section styling starts here */
 .Work-Container {
-  padding: 2% 10% 5% 10%;
+  /* padding: 2% 10% 5% 10%; */
   text-align: left;
   display: flex;
   flex-direction: column;

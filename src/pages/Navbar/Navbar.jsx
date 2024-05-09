@@ -32,9 +32,25 @@ const Navbar = () => {
           <Link smooth to="#process" className="navlink">
             Process
           </Link>
-          <Link smooth to="#process" className="navlink">
+          {/* <Link smooth to="#portfolio" target="_blank" className="navlink">
             Case Studies
-          </Link>
+          </Link> */}
+          {/* <a
+            href="http://localhost:5173/portfolio"
+            target="_blank"
+            className="navlink"
+          >
+            Case Studies
+          </a> */}
+          <a
+            href="http://localhost:5173/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navlink"
+          >
+            Case Studies
+          </a>
+
           <Link smooth to="#testimonial" className="navlink">
             Testimonial
           </Link>

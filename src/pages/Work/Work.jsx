@@ -82,7 +82,7 @@ const Work = () => {
         </div>
       </div>
       <Link smooth to="#pricing" className="navlink">
-        <button className="Seebtn" style={{ margin: "40px 0px" }}>
+        <button className="Seebtn" style={{ margin: "80px 0px" }}>
           See All Projects
         </button>
       </Link>

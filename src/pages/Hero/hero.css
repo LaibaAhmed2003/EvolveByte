@@ -32,7 +32,7 @@
   }
   
   .video-background {
-    width: 100%;
+    width: 96%;
     height: 90%;
     object-fit: cover;
     clip-path: polygon(0 0, calc(94% - 2rem) 0, 100% calc(13% + 1rem), 100% 100%, calc(3% + 3rem) 102%, 0% calc(87% - 2rem));

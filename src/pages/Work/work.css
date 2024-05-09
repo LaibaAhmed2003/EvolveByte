@@ -1,7 +1,7 @@
 /* Work section css */
 
 .Work-Container {
-    padding: 2% 10% 5% 10%;
+    padding: 3% 6.5%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -55,12 +55,14 @@
 
 
   .workpro-container{
+    padding: 0;
+    margin: 0;
     width: fit-content;
     /* padding: 5% 20%; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 100px;
   }
   .workpro-innerdev{
     border: 2px solid grey;
