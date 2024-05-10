@@ -113,26 +113,27 @@
 .portfolios{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    gap: 70px;
 }
 .project1-details{
-    width: fit-content;
+    width: 350px;
 }
 .project1-details img{
-    width: 390px;
-    height: 250px;
-    clip-path: polygon(0 0, calc(94% - 2rem) 0, 100% calc(13% + 1rem), 100% 100%, calc(3% + 3rem) 102%, 0% calc(87% - 2rem));
-    border-radius: 50px;
+    width: 360px;
+    height: 500px;
+    /* clip-path: polygon(0 0, calc(94% - 2rem) 0, 100% calc(13% + 1rem), 100% 100%, calc(3% + 3rem) 102%, 0% calc(87% - 2rem)); */
+    /* border-radius: 50px; */
 }
 .project1-details h4{
     padding: 10px 0px ;
-    font-size: 34px;
+    font-size: 25px;
     font-weight: 500;
 }
 .project1-details p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+    color: rgb(227, 227, 227);
 }
 .allprojectsec{
     text-align: center;

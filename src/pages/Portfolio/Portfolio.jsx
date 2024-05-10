@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import Client from "../Clients/Clients";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Projects from "../Project/Projects";
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,8 @@ const Portfolio = () => {
           </div>
           <div className="pcontent">
             <h2>
-              Website <br /> <span>Design & Build</span>
+              Website <br />{" "}
+              <span style={{ fontWeight: "500" }}>Design & Build</span>
             </h2>
             <p>
               Transform your recruitment website into a digital shop window to
@@ -88,8 +90,9 @@ const Portfolio = () => {
           Enquire Now
         </button>
       </div>
+      <Projects />
       <Client />
-      <div className="portfoliosection">
+      {/* <div className="portfoliosection">
         <h3>
           Related <span style={{ fontWeight: 500 }}>Projects</span>
         </h3>
@@ -129,15 +132,13 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="allprojectsec">
-          {/* <h5>
-            ALL PROJECTS <FontAwesomeIcon icon={faAngleRight} />
-          </h5> */}
+
           <button className="Seebtn" style={{ marginBottom: "60px" }}>
             All Projects
           </button>
           <hr />
         </div>
-      </div>
+      </div> */}
       {/* <div className="support-container">
         <h2>We can also support you with…</h2>
         <div className="support-innersec">

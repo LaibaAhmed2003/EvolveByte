@@ -1,0 +1,46 @@
+/* .Projectsec{
+    padding: 50px 120px;
+}
+.tabs{
+    text-align: center;
+}
+.tabs button{
+      color: white;
+      background-color: black;
+      border: none;
+      padding: 20px;
+      font-size: 22px;
+      font-weight: 500;
+      cursor: pointer;
+      text-transform: capitalize;
+      margin: 40px 0px;
+}
+.active{
+    color: yellow;
+} */
+
+.Projectsec {
+    padding: 50px 120px;
+  }
+  
+  .tabs {
+    text-align: center;
+  }
+  
+  .tabs button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin: 40px 0px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .tabs button.active {
+    color: yellow;
+  }
+  
