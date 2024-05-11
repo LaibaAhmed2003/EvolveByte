@@ -43,7 +43,7 @@ const Navbar = () => {
             Case Studies
           </a> */}
           <a
-            href="http://localhost:5173/portfolio"
+            href="https://www.evolvebyte.com/portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="navlink"
