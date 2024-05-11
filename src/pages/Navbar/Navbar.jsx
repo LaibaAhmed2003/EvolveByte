@@ -32,20 +32,9 @@ const Navbar = () => {
           <Link smooth to="#process" className="navlink">
             Process
           </Link>
-          {/* <Link smooth to="#portfolio" target="_blank" className="navlink">
-            Case Studies
-          </Link> */}
-          {/* <a
-            href="http://localhost:5173/portfolio"
-            target="_blank"
-            className="navlink"
-          >
-            Case Studies
-          </a> */}
           <a
             href="https://www.evolvebyte.com/portfolio"
             target="_blank"
-            rel="noopener noreferrer"
             className="navlink"
           >
             Case Studies
