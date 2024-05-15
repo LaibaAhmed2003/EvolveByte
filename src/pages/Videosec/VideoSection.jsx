@@ -1,11 +1,11 @@
-import Laura from "../../media/LauraEnzor.jpg";
 import "./videosec.css";
+import video from "../../media/videoimg.png";
 
 const VideoSection = () => {
   return (
     <div className="VideoSection-container" id="videosec">
       <div className="videosec-innerdev">
-        <img src={Laura} alt="Laura Enzor" className="video-img" />
+        <img src={video} alt="Laura Enzor" className="video-img" />
         <h3 className="caption">“The results speak for themselves”</h3>
         <div className="leads-container">
           <div className="leads-contents">

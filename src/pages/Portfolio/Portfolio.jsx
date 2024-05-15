@@ -1,8 +1,6 @@
 import "./Portfolio.css";
 import Footer from "../Footer/Footer";
 import Client from "../Clients/Clients";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import Projects from "../Project/Projects";
 
 const Portfolio = () => {
@@ -27,9 +25,6 @@ const Portfolio = () => {
               your audiences and admirers into clients, candidates, and future
               employees.
             </p>
-            {/* <h5 className="">
-              EXPLORE <FontAwesomeIcon icon={faAngleRight} />
-            </h5> */}
             <button className="Seebtn">Explore</button>
           </div>
         </div>

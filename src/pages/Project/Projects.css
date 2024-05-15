@@ -22,6 +22,9 @@
 .Projectsec {
     padding: 50px 120px;
   }
+  .Projectsec h2{
+    text-align: center;
+  }
   
   .tabs {
     text-align: center;
@@ -44,3 +47,20 @@
     color: yellow;
   }
   
+  @media(min-width:300px) and (max-width:500px){
+    .Projectsec {
+      padding: 0;
+      text-align: left;
+    }
+    .Projectsec h2{
+      text-align: left;
+      margin-left: 25px;
+    }
+    .tabs {
+      text-align: left;
+      padding: 0px 10px;
+    }
+    .tabs button {
+      text-align: left;
+    }
+  }

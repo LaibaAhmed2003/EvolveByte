@@ -7,7 +7,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
     width: fit-content;
   }
   .second-heading {
@@ -58,7 +57,6 @@
     padding: 0;
     margin: 0;
     width: fit-content;
-    /* padding: 5% 20%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,10 +66,9 @@
     border: 2px solid grey;
     margin: 40px 4px 4px 4px;
   }
-  .workpro-img{
+  .workpro-innerdev img{
     height: 300px;
     width: 100%;
-    opacity: 0.3;
   }
   .caption{
     background-color: yellow;
@@ -114,6 +111,7 @@
       padding: 0px 6%;
       text-align: left;
       margin-bottom: 40px;
+      width: 89%;
     }
     .projects-maincontainer {
       display: flex;
@@ -129,17 +127,18 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      /* gap: 10px; */
     }
   }
-
-  @media (min-width:500px) and (max-width:970px){
+/* Mobile device */
+  @media (min-width: 500px) and (max-width: 770px){
     .Work-Container {
       padding: 0px 6%;
       text-align: left;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
+      width: 253%;
+ 
     }
-    .projects-maincontainer {
+     .projects-maincontainer {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -152,7 +151,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 40px;
+    }
+    .workpro-innerdev{
+      width: 500px;
     }
     .workpro-img{
       height: 250px;
@@ -176,5 +178,163 @@
     .leads-contents h5{
       font-size: 13px;
     
-    }
+    } 
   }
+/* Ipad air */
+  @media (min-width: 770px) and (max-width: 1000px){
+    .Work-Container {
+      padding: 0px 6%;
+      text-align: left;
+      margin-bottom: 10px;
+      width: 90%;
+      margin-top: 0;
+      padding-top: 0 ;
+    }
+     .projects-maincontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .workpro-container{
+      padding: 0;
+      margin: 0;
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .workpro-innerdev{
+      width: 350px;
+    }
+    .workpro-img{
+      height: 250px;
+      width: 100%;
+      opacity: 0.3;
+    }
+    .caption{
+      background-color: yellow;
+      color: black;
+      font-weight: 700;
+      text-align: center;
+      padding: 13px;
+      margin-top: -5px;
+      font-size: 13px;
+    }
+    .leads-contents h4{
+      font-size: 10px;
+      color: yellow;
+      font-weight: 500;
+    }
+    .leads-contents h5{
+      font-size: 13px;
+    
+    } 
+  
+}
+/* ipad pro */
+@media (min-width: 1000px) and (max-width: 1200px){
+  .Work-Container {
+    padding: 0px 6%;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0 ;
+  }
+   .projects-maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .workpro-container{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .workpro-innerdev{
+    width: 350px;
+  }
+  .workpro-img{
+    height: 250px;
+    width: 100%;
+    opacity: 0.3;
+  }
+  .caption{
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 13px;
+    margin-top: -5px;
+    font-size: 13px;
+  }
+  .leads-contents h4{
+    font-size: 10px;
+    color: yellow;
+    font-weight: 500;
+  }
+  .leads-contents h5{
+    font-size: 13px;
+  
+  } 
+}
+/* laptop and big screens */
+@media (min-width: 1200px) and (max-width: 1400px){
+  .Work-Container {
+    padding: 0px 6%;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0 ;
+  }
+   .projects-maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .workpro-container{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .workpro-innerdev{
+    width: 350px;
+  }
+  .workpro-innerdev img{
+    height: 250px;
+    width: 100%;
+    /* opacity: 0.3; */
+  }
+  .caption{
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 13px;
+    margin-top: -5px;
+    font-size: 13px;
+  }
+  .leads-contents h4{
+    font-size: 10px;
+    color: yellow;
+    font-weight: 500;
+  }
+  .leads-contents h5{
+    font-size: 13px;
+  
+  } 
+}
+

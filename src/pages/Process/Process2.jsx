@@ -37,10 +37,7 @@ const Process2 = () => {
   return (
     <div className="process-con" id="process">
       <p className="heading">Process</p>
-      <h2
-        className="second-heading"
-        style={{ padding: "30px 0px 60px 0px", textTransform: "capitalize" }}
-      >
+      <h2 className="second-heading">
         How does this <span>work?</span>
       </h2>
       <div
@@ -169,7 +166,7 @@ const Process2 = () => {
         </div>
       </div>
       <Link smooth to="#pricing" className="navlink mtop">
-        <button className="Seebtn">Book A Call</button>
+        <button className="Seebtn bookcall">Book A Call</button>
       </Link>
     </div>
   );

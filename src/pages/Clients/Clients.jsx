@@ -10,7 +10,10 @@ import "./Clients.css";
 const Clients = () => {
   return (
     <div className="clients-container">
-      <h2 className="second-heading" style={{ fontWeight: "500" }}>
+      <h2
+        className="second-heading"
+        style={{ fontWeight: "500", padding: "0px 10px" }}
+      >
         Companies That <span style={{ fontWeight: "500" }}>Trust Us.</span>
       </h2>
       <div className="clients-names">

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../media/logo/Whitelogo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -35,10 +36,9 @@ const Footer = () => {
         </div>
         <div className="sndsec">
           <div className="text">
-            <h2>EvolveByte</h2>
-            <p>
-              We create content that is
-              <br /> impossible to ignore.
+            <img src={logo} alt="" />
+            <p style={{ fontWeight: "200" }}>
+              We create content that is impossible to ignore.
             </p>
           </div>
           <div className="links-container">

@@ -3,14 +3,12 @@
 .Testimonial-container {
     text-align: center;
     padding: 30px 0px 90px 0px;
-    overflow: hidden; /* Hide any overflow */
-  }
-  
+    overflow: hidden; 
+  } 
   .testimonials {
     display: flex;
-    animation: slide 20s linear infinite; /* Adjust the duration as needed */
+    animation: slide 20s linear infinite; 
   }
-  
   .test {
     width: 100%;
     flex: 0 0 auto;
@@ -21,7 +19,7 @@
     border-radius: 1.5rem;
     margin: 10px;
     padding: 32px;
-    transition: all 0.3s ease; /* Add smooth transition */
+    transition: all 0.3s ease; 
   }
   
   .test:hover {
@@ -153,3 +151,42 @@
     color: rgb(174, 174, 174);
   }
   
+
+  @media (min-width: 300px) and (max-width: 500px) {
+    *{
+      overflow-x: hidden;
+    }
+    .Testimonial-container {
+      text-align: center;
+      padding: 30px 10px 90px 10px;
+      width: 100%;
+    }
+    .static-testmonial {
+      display: none;
+    }
+    .testimonials .test {
+      text-align: left;
+      border: 1px solid grey;
+      border-radius: 1.5rem;
+      width: 360px;
+      margin: 10px;
+      padding: 32px;
+    }
+    .testimonials {
+      display: flex;
+      animation: slide 5s linear infinite; 
+      width: 100%;
+    }
+  
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      50% {
+        transform: translateX(50%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  }

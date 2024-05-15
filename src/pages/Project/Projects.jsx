@@ -10,10 +10,7 @@ const Projects = () => {
 
   return (
     <div className="Projectsec">
-      <h2
-        className="second-heading"
-        style={{ textAlign: "center", fontWeight: "500" }}
-      >
+      <h2 className="second-heading" style={{ fontWeight: "500" }}>
         Related <span style={{ fontWeight: "500" }}>Projects.</span>
       </h2>
       <div className="tabs">

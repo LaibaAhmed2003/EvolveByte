@@ -10,7 +10,6 @@
   .video-img{
     height: 400px;
     width: 100%;
-    opacity: 0.3;
   }
   .caption{
     background-color: yellow;
@@ -45,11 +44,17 @@
     color: yellow;
     cursor: pointer;
   }
-  
-  @media(min-width: 500px) and (max-width: 970px){
+  @media(min-width: 300px) and (max-width: 500px){
     .VideoSection-container{
-      width: fit-content;
-      padding: 5% 5%;
+      width: 92%;
+      padding: 5% 0%;
+      margin: 15px;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 770px){
+    .VideoSection-container{
+      width: 230%;
+      padding: 15% 20% 10% 20%;
     }
     .video-img{
       height: 400px;
@@ -57,3 +62,39 @@
       opacity: 0.3;
     }
   }
+/* Ipad air */
+  @media (min-width: 768px) and (max-width: 1000px){
+    .VideoSection-container{
+      width: 90%;
+      padding: 5% 5%;
+    }
+    .video-img{
+      height: 400px;
+      width: 100%;
+      opacity: 0.3;
+    }
+}
+/* ipad pro */
+@media (min-width: 1000px) and (max-width: 1200px){
+  .VideoSection-container{
+    width: 90%;
+    padding: 5% 5%;
+  }
+  .video-img{
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+  }
+}
+/* laptop and big screens */
+@media (min-width: 1200px) and (max-width: 1400px){
+  .VideoSection-container{
+    width: 200%;
+    padding: 5% 5%;
+  }
+  .video-img{
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+  }
+}

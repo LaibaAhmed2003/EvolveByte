@@ -1,5 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import Laura from "../../media/LauraEnzor.jpg";
+import video from "../../media/videoimg.png";
 import "./work.css";
 
 const Work = () => {
@@ -12,7 +13,7 @@ const Work = () => {
       <div className="projects-maincontainer">
         <div className="workpro-container" id="videosec">
           <div className="workpro-innerdev">
-            <img src={Laura} alt="Laura Enzor" className="workpro-img" />
+            <img src={video} alt="Laura Enzor" className="workpro-img" />
             <h3 className="caption">“The results speak for themselves”</h3>
             <div className="leads-container">
               <div className="leads-contents">
@@ -33,7 +34,7 @@ const Work = () => {
             <p className="case-link">Read Neha Case Study »</p>
           </div>
           <div className="workpro-innerdev">
-            <img src={Laura} alt="Laura Enzor" className="workpro-img" />
+            <img src={video} alt="Laura Enzor" className="workpro-img" />
             <h3 className="caption">“The results speak for themselves”</h3>
             <div className="leads-container">
               <div className="leads-contents">

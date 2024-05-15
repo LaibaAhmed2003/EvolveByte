@@ -39,3 +39,76 @@
       ); /* Adjust percentage based on the number of sets of clients */
     }
   }
+  @media (min-width: 300px) and (max-width: 500px){
+    .clients-container {
+      display: flex;
+      height: 400px;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+    .clients-container .clients-names {
+      display: flex;
+      margin-top: 20px;
+    }
+    .clientsec {
+      display: flex;
+      animation: slide 20s linear infinite;
+    }
+  
+    .clients-container .clients-names img {
+        font-weight: bold;
+        height: 60px;
+        width: 100px;
+        margin: 24px;
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(
+          -50%
+        ); 
+      }
+    }
+  }
+/* tablet mode query */
+  @media (min-width: 500px) and (max-width: 770px){
+    .clients-container {
+      display: flex;
+      height: 400px;
+      width: 270%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  }
+/* Ipad air */
+  @media (min-width: 768px) and (max-width: 1000px){
+    .clients-container {
+      height: 454px;
+      width: 270%;   
+      padding-bottom: 0; 
+      margin-bottom: 0;
+  }
+}
+/* ipad pro */
+@media (min-width: 1000px) and (max-width: 1200px){
+  .clients-container {
+    height: 254px;
+    width: 100%;
+    padding-bottom: 0; 
+    margin-bottom: 0;
+}
+}
+/* laptop and big screens */
+@media (min-width: 1200px) and (max-width: 1400px){
+  .clients-container {
+    height: 400px;
+    width: 175%;
+    padding-bottom: 0; 
+    margin-bottom: 0;
+}
+}

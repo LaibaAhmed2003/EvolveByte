@@ -5,14 +5,14 @@ const Services = () => {
     <div className="Services-container" id="services">
       <p className="heading">Services</p>
       <h2 className="second-heading" style={{ padding: "20px 0px 10px 0px" }}>
-        Attract - <span>Engage</span> - Convert
+        Attract <span>- Engage - </span>Convert
       </h2>
-      <p style={{ padding: "0px 0px 20px 0px", textTransform: "capitalize" }}>
+      <p style={{ padding: "0px 10px 20px 10px", textTransform: "capitalize" }}>
         From creating your digital identity to managing your complete brand
-        growth{" "}
+        growth.
       </p>
       <div className="services">
-        <div className="">
+        <div className="service-inner" style={{ textAlign: "left" }}>
           <h3 className="service-name">Website Design & Development</h3>
           <p>- Custom Website Design</p>
           <p>- Wordpress web designing</p>

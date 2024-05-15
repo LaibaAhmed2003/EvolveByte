@@ -3,7 +3,6 @@
 .Services-container {
     padding: 0;
     width: 100%;
-    /* width: fit-content; */
     height: fit-content;
     text-align: center;
   }
@@ -42,11 +41,13 @@
     font-size: 18px;
     margin-bottom: 4px;
     font-weight: 400;
+    text-align: left;
   }
   .services div p {
     color: rgb(189, 188, 188);
     font-weight: 300;
     padding: 5px 0px;
+    text-align: left;
   }
   .service-name{
     color: yellow;
@@ -56,9 +57,46 @@
     color: rgb(213, 213, 59);
     font-weight: 600;
     text-align: left;
-    /* padding: 8px; */
-    /* margin-top: -5px; */
     font-size: 13px;
     border-radius: 10px;
-    /* border: 0.5px solid white; */
   }
+  @media (min-width: 300px) and (max-width: 500px){
+  .Services-container{
+    width: 100%;
+   }
+
+  }
+
+  /* tablet mode query */
+  @media (min-width: 500px) and (max-width: 766px){
+    .Services-container{
+      width: 270%;
+     }
+  }
+/* Ipad air */
+  @media (min-width: 767px) and (max-width: 1000px){
+    .Services-container{
+      width: 100%;
+     }
+     .services div {
+      text-align: left;
+      width: 530px;
+      border: 1px solid white;
+    }
+}
+/* ipad pro */
+@media (min-width: 1000px) and (max-width: 1200px){
+  .Services-container{
+    width: 100%;
+   }
+   .services div {
+    text-align: left;
+    width: 530px;
+  }
+}
+/* laptop and big screens */
+@media (min-width: 1200px) and (max-width: 1400px){
+  .Services-container{
+    width: 200%;
+   }
+}
