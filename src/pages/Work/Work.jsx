@@ -1,6 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import Laura from "../../media/LauraEnzor.jpg";
-import video from "../../media/videoimg.png";
+import video from "../../media/vid.png";
 import "./work.css";
 
 const Work = () => {
