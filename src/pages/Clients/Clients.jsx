@@ -5,6 +5,9 @@ import flying from "../../media/Brand-without-background/Flyingtoucan.png";
 import Grow from "../../media/Brand-without-background/Grow_your_cashflow.png";
 import Tiberius from "../../media/Brand-without-background/Tiberius.png";
 import UAATEAM from "../../media/Brand-without-background/UAATEAM.png";
+import addsales from "../../media/Brand-without-background/adservice.png";
+import arworkflow from "../../media/Brand-without-background/arworkflow.png";
+import biologic from "../../media/biologic.png";
 import "./Clients.css";
 
 const Clients = () => {
@@ -18,6 +21,9 @@ const Clients = () => {
       </h2>
       <div className="clients-names">
         <div className="clientsec">
+          {/* <img src={addsales} alt="" /> */}
+          <img src={arworkflow} alt="" />
+          <img src={biologic} alt="" />
           <img src={ainvent} alt="Aivent" />
           <img src={chase} alt="Chase" />
           <img src={flat} alt="Flat" />
@@ -27,6 +33,9 @@ const Clients = () => {
           <img src={UAATEAM} alt="UAATEAM" />
         </div>
         <div className="clientsec">
+          {/* <img src={addsales} alt="" /> */}
+          <img src={arworkflow} alt="" />
+          <img src={biologic} alt="" />
           <img src={ainvent} alt="Aivent" />
           <img src={chase} alt="Chase" />
           <img src={flat} alt="Flat" />

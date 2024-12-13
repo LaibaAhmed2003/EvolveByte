@@ -38,7 +38,7 @@ const Team = () => {
           <img src={Laiba} alt="" />
           <div className="name-des">
             <h5>Laiba Ahmed</h5>
-            <h3>Web Developer</h3>
+            <h3>Project Manager</h3>
           </div>
         </div>
       </div>

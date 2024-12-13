@@ -1,5 +1,4 @@
 /* Videosec css file */
-
 .VideoSection-container{
     width: fit-content;
     padding: 5% 20%;
@@ -97,4 +96,26 @@
     width: 100%;
     opacity: 0.3;
   }
+}
+
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.video-overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 910px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 10;
+  padding: 0;
+}
+
+.video-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

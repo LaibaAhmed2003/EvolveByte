@@ -1,12 +1,14 @@
 import Hero from "../Hero/Hero";
 import Clients from "../Clients/Clients";
 import Work from "../Work/Work";
-import Services from "../Services/Services";
+// import Services from "../Services/Services";
+import Services from "../Services/Service2";
 import VideoSection from "../Videosec/VideoSection";
 import Process2 from "../Process/Process2";
 import Testimonial from "../Testimonial/Testimonial";
 import Pricing from "../Pricing/Pricing";
 import Team from "../Team/Team";
+import How from "../howitworks/how";
 import Calendly from "../Calendly/Calendly";
 import GetStarted from "../Getstarted/GetStarted";
 import Lowernavbar from "../../Lowernavbar";
@@ -22,8 +24,9 @@ const Home = () => {
       <Clients />
       <Work />
       <Services />
-      <VideoSection />
-      <Process2 />
+      {/* <VideoSection /> */}
+      <How />
+      {/* <Process2 /> */}
       <Testimonial />
       <Pricing />
       <GetStarted />

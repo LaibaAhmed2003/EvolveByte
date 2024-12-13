@@ -5,6 +5,9 @@
     text-align: center;
     padding: 10% 0%;
   }
+.Team-Container .second-heading{
+  text-align: center;
+}
   .Team-members {
     display: flex;
     flex-direction: row;
@@ -63,7 +66,7 @@
   @media (min-width:300px) and (max-width:500px){
     .Team-Container {
         text-align: center;
-        padding: 30px 0px 50px 0px;
+        padding: 30px 10px 50px 10px;
       }
       .Team-members {
         display: flex;

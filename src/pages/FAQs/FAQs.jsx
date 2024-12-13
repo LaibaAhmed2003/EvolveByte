@@ -22,19 +22,22 @@ const FAQs = () => {
     <div className="FAQ-container" id="faqs">
       <div className="FAQ-sess1">
         <h2 className="second-heading" style={{ padding: "30px 0px 20px 0px" }}>
-          <span>Frequently</span> <br /> Asked Questions
+          <span>Your burning </span> <br /> questions.
         </h2>
         <p>
           EvolveByte is always growing and we're <br /> here to help along the
           way. If you have <br /> additional questions, feel free to reach out.
         </p>
-        <button className="btn">Get Started</button>
+        <button className="btn" style={{ padding: "10px 20px" }}>
+          Get Started
+        </button>
       </div>
       <div className="FAQ-sess2">
         <div className="question">
           <div className="heading-arrow">
             <h3 className="faq-heading">
-              Why is EvolveByte a better choice than other marketing agencies?
+              01. Will LinkedIn actually help me grow traffic and make more
+              sales?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -44,38 +47,31 @@ const FAQs = () => {
           </div>
           {showContent1 && (
             <p>
-              Most marketing agencies offer all-in-one services that require
-              large budgets and take time to yield visible results.
+              LinkedIn is one of the highest-converting marketing channels on
+              the planet. When you look at the stats, it's pretty wild.
               <br />
+              LinkedIn’s user base of over 800 million professionals offers vast
+              networking possibilities that can lead to business opportunities.
               <br />
-              For example, they may urge you to invest heavily in expensive
-              marketing strategies such as paid ads and email marketing, without
-              having an actual estimation about results.
+              Being consistent on LinkedIn can establish you as an industry
+              expert, attracting potential clients among LinkedIn’s user base
+              actively seeking industry insights.
               <br />
+              LinkedIn Sales Navigator can enhance lead generation efforts, with
+              LinkedIn claiming a 17% higher win rate when leads are sourced
+              through the platform. Sharing links on LinkedIn can enhance SEO,
+              leveraging its high domain authority to boost your site's
+              visibility in search results
               <br />
-              At EvolveByte, we have a proven approach for B2B businesses that
-              allows you to invest less and achieve the maximum results
-              possible.
-              <br />
-              <br />
-              We attract, engage, and convert your target audience using the
-              most effective marketing approaches.
-              <br />
-              <br />
-              No paid ads,
-              <br />
-              <br />
-              No complex sales funnel,
-              <br />
-              <br />
-              No big marketing budget is required here.
+              In a nutshell, once you implement the right strategies for
+              LinkedIn growth, it can become your 24/7 sales generation machine.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
             <h3 className="faq-heading">
-              How will EvolveByte integrate with our company?
+              02. How can you help me with LinkedIn?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -85,18 +81,16 @@ const FAQs = () => {
           </div>
           {showContent2 && (
             <p>
-              Within 24 hours of signing the contract, you will be onboarded to
-              Trello. There, you'll have a dedicated project manager who will
-              maintain constant communication with you and keep you updated on
-              progress.
+              We help you attract the right people on LinkedIn and grow your
+              business by offering you my all-in-one LinkedIn growth services -
+              Profile optimization, LinkedIn content creation, Networking
+              strategy, 1-1 consultation, and cold outreach.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3 className="faq-heading">
-              Will LinkedIn actually help me grow traffic and make more sales?
-            </h3>
+            <h3 className="faq-heading">03. What is your working timezone?</h3>
             <FontAwesomeIcon
               icon={faArrowDown}
               className="arrow-down"
@@ -105,35 +99,14 @@ const FAQs = () => {
           </div>
           {showContent3 && (
             <p>
-              LinkedIn is one of the highest-converting marketing channels on
-              the planet. When you look at the stats, it's pretty wild.
-              <br />
-              <br />
-              LinkedIn’s user base of over 800 million professionals offers vast
-              networking possibilities that can lead to business opportunities.
-              <br />
-              <br />
-              Being consistent on LinkedIn can establish you as an industry
-              expert, attracting potential clients among LinkedIn’s user base
-              actively seeking industry insights.
-              <br />
-              <br />
-              LinkedIn Sales Navigator can enhance lead generation efforts, with
-              LinkedIn claiming a 17% higher win rate when leads are sourced
-              through the platform.
-              <br />
-              <br />
-              Sharing links on LinkedIn can enhance SEO, leveraging its high
-              domain authority to boost your site's visibility in search
-              results. In a nutshell, once you implement the right strategies
-              for LinkedIn growth, it can become your 24/7 sales generation
-              machine.
+               We work according to EST and PST time zones. Whenever you send us
+              a message, We’ll get back to you as soon as possible.
             </p>
           )}
         </div>
         <div className="question">
           <div className="heading-arrow">
-            <h3 className="faq-heading">When is your team online?</h3>
+            <h3 className="faq-heading">04. Can I pause or cancel?</h3>
             <FontAwesomeIcon
               icon={faArrowDown}
               className="arrow-down"
@@ -142,24 +115,6 @@ const FAQs = () => {
           </div>
 
           {showContent4 && (
-            <p>
-              EvolveByte boasts a diversified team operating across EST, AEST,
-              and PST time zones. Whenever you contact us, our team will respond
-              within a few hours.
-            </p>
-          )}
-        </div>
-        <div className="question">
-          <div className="heading-arrow">
-            <h3 className="faq-heading">Can I pause or cancel?</h3>
-            <FontAwesomeIcon
-              icon={faArrowDown}
-              className="arrow-down"
-              onClick={() => toggleContent(5)}
-            />
-          </div>
-
-          {showContent5 && (
             <p>
               There are no annual contracts or irreversible commitments. You can
               pause or cancel at any time. Cancellations take effect at the
@@ -170,7 +125,7 @@ const FAQs = () => {
         <div className="question">
           <div className="heading-arrow">
             <h3 className="faq-heading">
-              Can I upgrade my service package later?
+              05. How to discuss this further in detail?
             </h3>
             <FontAwesomeIcon
               icon={faArrowDown}
@@ -180,11 +135,7 @@ const FAQs = () => {
           </div>
 
           {showContent5 && (
-            <p>
-              Scaling your business is easy with EvolveByte. Our plans are
-              flexible, so you can contact us anytime to discuss your growing
-              business needs, and we will accommodate you within 24 hours.
-            </p>
+            <p>You can simply book a meeting by visiting the calendly link.</p>
           )}
         </div>
       </div>

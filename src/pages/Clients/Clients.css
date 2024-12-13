@@ -28,6 +28,9 @@
     margin: 24px;
     /* border: 2px solid rgb(252, 252, 252); */
   }
+  .clients-container .second-heading{
+    text-align: center;
+  }
   
   @keyframes slide {
     0% {
@@ -47,6 +50,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: -62px;
+      margin-bottom: 0px;
   }
     .clients-container .clients-names {
       display: flex;

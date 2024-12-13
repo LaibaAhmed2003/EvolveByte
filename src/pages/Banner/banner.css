@@ -1,0 +1,45 @@
+.banner-container{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.det-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .banner-container .det-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px;
+        animation: none;
+        font-size: 8px;
+    }
+    .det{
+        margin: 0px 5px;
+    }
+}
+
+@keyframes scroll {
+    from {
+      transform: translateX(100%); /* Start from outside the viewport */
+    }
+    to {
+      transform: translateX(-100%); /* Move out to the left of the viewport */
+    }
+  }

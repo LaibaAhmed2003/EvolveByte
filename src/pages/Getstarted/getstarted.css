@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
   }
+  .GetStarted-Container .second-heading{
+    text-align: center;
+  }
   .getstarted-innercontainer {
     background-color: #2869f6;
     color: white;

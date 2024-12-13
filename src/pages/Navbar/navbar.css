@@ -7,10 +7,10 @@
     padding: 0.5% 6%;
     background-color: #1212128b;
     color: white;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     border-bottom: 0.1px solid rgb(55, 55, 55);
     z-index: 1;
     backdrop-filter: blur(12px);
@@ -47,6 +47,21 @@
     padding: 0px 13px;
     font-size: 16px;
   }
+ .navlinksContainer .btn{
+  background-color: yellow;
+  color: black;
+ }
+ .btn .navlink{
+  color: black;
+ }
+ .btn .navlink:hover{
+  color: white;
+  background-color: transparent;
+ }
+ .navlinksContainer .btn:hover{
+  background-color: transparent;
+  color: white;
+ }
 
   @media (min-width: 300px) and (max-width: 600px) {
     .navlinksContainer{
@@ -71,6 +86,7 @@
       padding: 0px 3%;
       width: fit-content;
     }
+    
     .logo-container{
       display: flex;
       align-items: center;
@@ -92,7 +108,7 @@
       width: fit-content;
       position: fixed;
       top: 0;
-      left: 20px;
+      right: 162px;
     }
    
     .navbar-container.show {
@@ -124,7 +140,7 @@
     }
     .navlinksContainer .navlink {
       font-size: 18px;
-      padding: 20px 10px;
+      padding: 20px 25px;
       text-align: left;
   
     }

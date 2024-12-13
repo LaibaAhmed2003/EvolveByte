@@ -2,15 +2,19 @@
 
 .Testimonial-container {
     text-align: center;
-    padding: 30px 0px 90px 0px;
+    padding: 30px 80px 90px 80px;
     overflow: hidden; 
   } 
+.Testimonial-container .second-heading{
+  text-align: center;
+}
   .testimonials {
     display: flex;
     animation: slide 20s linear infinite; 
   }
-  .test {
-    width: 100%;
+  .testimonials .test {
+    width: 564px;
+    height: 335px;
     flex: 0 0 auto;
     box-sizing: border-box;
     padding: 0 15px;
@@ -19,6 +23,7 @@
     border-radius: 1.5rem;
     margin: 10px;
     padding: 32px;
+    position: relative;
     transition: all 0.3s ease; 
   }
   
@@ -44,33 +49,36 @@
     padding: 15px 0px;
     margin-top: 10px;
   }
-  
-  .test-items {
+  .test .test-items {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-start;
     gap: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
   }
-  
-  .image img {
+  .test-items .image img {
     width: 48px;
     height: 48px;
     border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
   }
-  
-  .name h3 {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 4px;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-  }
-  
+
   .name h4 {
-    color: grey;
-    font-size: 16px;
+    color: rgb(236, 216, 39);
+    font-size: 15px;
     letter-spacing: 0.5px;
+    font-weight: 400;
   }
+  .client-name h3{
+    color: white;
+    text-transform: capitalize;
+    font-size: 17px;
+  }
+ 
   
   @keyframes slide {
     0% {
@@ -79,77 +87,20 @@
     100% {
       transform: translateX(
         -100%
-      ); /* Adjust percentage based on the width of each testimonial */
+      ); 
     }
   }
-  
-  /* static testimonials */
-  .static-testmonial {
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
-  }
-  .test {
-    text-align: left;
-    border: 2px solid grey;
-    border-radius: 1.5rem;
-    width: 370px;
-    margin: 10px;
-    padding: 32px;
-  }
-  .test:hover {
-    cursor: pointer;
-    border-color: yellow;
-    -webkit-text-fill-color: inherit;
-    background-image: radial-gradient(
-      circle at 50% 50%,
-      rgba(244, 240, 28, 0.441),
-      rgba(0, 0, 0, 0)
-    );
-    background-clip: padding-box;
-    border-radius: 1.5rem;
-    border-color: yellow;
-    filter: brightness(100%);
-    color: white;
-  }
-  
-  .test p {
-    color: white;
-    font-weight: 300;
-    padding: 15px 0px;
-    margin-top: 10px;
-  }
-  .test .test-items {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 18px;
-  }
-  .test-items .image img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-  }
-  .name h3 {
-    color: white;
-    font-size: 22px;
-    margin-bottom: 4px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  .name h4 {
-    color: rgb(236, 216, 39);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-  }
-  .test p{
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    color: rgb(174, 174, 174);
-  }
+  /* @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  } */
   
 
   @media (min-width: 300px) and (max-width: 500px) {
@@ -166,27 +117,34 @@
     }
     .testimonials .test {
       text-align: left;
-      border: 1px solid grey;
+      border: 2px solid grey;
       border-radius: 1.5rem;
-      width: 360px;
+      width: 320px;
+      height: 490px;
       margin: 10px;
       padding: 32px;
     }
     .testimonials {
       display: flex;
-      animation: slide 5s linear infinite; 
-      width: 100%;
+      flex-direction: column;
+      /* animation: slide 20s linear infinite; */
+      animation: none;
+
+    }
+    .testy2{
+      display:none;
+    }
+    .laura{
+      display: none;
+    }
+    .client-name{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
   
-    @keyframes slide {
-      0% {
-        transform: translateX(0%);
-      }
-      50% {
-        transform: translateX(50%);
-      }
-      100% {
-        transform: translateX(100%);
-      }
-    }
+    
   }
+ 
+  

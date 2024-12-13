@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Projects.css";
-
 const Projects = () => {
   const [activeTab, setActiveTab] = useState(0);
 
@@ -36,7 +35,6 @@ const Projects = () => {
       <div className="tab-content">
         {activeTab === 0 && (
           <div>
-            {/* Content for Website Development & Design */}
             <div className="portfolios">
               <div className="project1-details">
                 <img
@@ -173,12 +171,7 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-            {/* Content for Linkedin */}
-            {/* Add your content for the Linkedin tab here */}
             <div className="allprojectsec">
-              {/* <h5>
-            ALL PROJECTS <FontAwesomeIcon icon={faAngleRight} />
-          </h5> */}
               <button className="Seebtn" style={{ marginBottom: "60px" }}>
                 All Projects
               </button>
@@ -188,7 +181,6 @@ const Projects = () => {
         )}
         {activeTab === 1 && (
           <div>
-            {/* Content for Website Development & Design */}
             <div className="portfolios">
               <div className="project1-details">
                 <img
@@ -329,8 +321,6 @@ const Projects = () => {
         )}
         {activeTab === 2 && (
           <div>
-            {/* Content for Linkedin */}
-            {/* Add your content for the Linkedin tab here */}
             <div className="portfolios" style={{ paddingBottom: "50px" }}>
               <div className="project1-details">
                 <img

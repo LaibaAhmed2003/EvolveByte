@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../media/herovideo.mp4";
+import video from "../../media/herovid.mp4";
 import { HashLink as Link } from "react-router-hash-link";
 import "./hero.css";
 const Hero = () => {
@@ -17,17 +17,12 @@ const Hero = () => {
       </div>
       <div className="hero-content">
         <h1>
-          Turn Your Brand Into A <br />
-          <span
-            style={{ color: "yellow", fontWeight: "500", marginTop: "15px" }}
-          >
-            6 Figure{" "}
-          </span>{" "}
-          Sales Channel.
+          Build Your Thought Leaderships & <br />
+          <span className="span">Get Leads from LinkedIn.</span>
         </h1>
         <h5>
-          We help you get more qualified traffic, sales and revenue through
-          content-driven Website & LinkedIn Growth.
+          As your LinkedIn partner we help you build your authority, attract the
+          right audience, and get your warm leads with higher conversion rate.
         </h5>
 
         <Link smooth to="#pricing" className="navlink">

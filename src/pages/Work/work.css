@@ -14,8 +14,6 @@
     font-size: 38px;
     font-weight: 400;
   }
-  
-  
   .project-image {
     margin-top: 30px;
     width: 350px;
@@ -32,9 +30,7 @@
     );
     border-radius: 10px;
     cursor: pointer;
-    /* padding: 10px; */
     opacity: 0.6;
-    
   }
   .projects-maincontainer {
     display: flex;
@@ -51,8 +47,6 @@
     color: grey;
     padding: 20px 0px;
   }
-
-
   .workpro-container{
     padding: 0;
     margin: 0;
@@ -67,8 +61,11 @@
     margin: 40px 4px 4px 4px;
   }
   .workpro-innerdev img{
-    height: 300px;
+    height: 400px;
     width: 100%;
+  }
+  .video-wrapper{
+    margin-bottom: 100px;
   }
   .caption{
     background-color: yellow;
@@ -86,7 +83,6 @@
     text-align: center;
     padding: 2% 0%;
   }
-  
   .leads-contents h4{
     font-size: 30px;
     color: yellow;
@@ -105,13 +101,14 @@
     color: yellow;
     cursor: pointer;
   }
-
+/* Mobile device */
   @media (min-width:300px) and (max-width:500px){
     .Work-Container {
       padding: 0px 6%;
       text-align: left;
       margin-bottom: 40px;
       width: 89%;
+      margin-top: -75px;
     }
     .projects-maincontainer {
       display: flex;
@@ -120,16 +117,35 @@
       justify-content: center;
     }
     .workpro-container{
-      padding: 0;
-      margin: 0;
       width: fit-content;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 10px;
+    }
+    .workpro-innerdev{
+      width: 313px;
+    }
+    .video-wrapper{
+      position: relative;
+    }
+    .video-wrapper img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 313px;
+      height: 300px;
+    }
+    .video-wrapper video{
+      width: 313px;
+      height: 300px;
+    }
+    .workpro-innerdev .caption{
+      margin-top: -106px;
     }
   }
-/* Mobile device */
+
   @media (min-width: 500px) and (max-width: 770px){
     .Work-Container {
       padding: 0px 6%;
@@ -231,7 +247,6 @@
       font-size: 13px;
     
     } 
-  
 }
 /* ipad pro */
 @media (min-width: 1000px) and (max-width: 1200px){
@@ -336,5 +351,21 @@
     font-size: 13px;
   
   } 
+}
+
+
+.video-overlay2 {
+  position: absolute;
+  top: 0;
+  left:-10;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 1;
+}
+.video-wrapper {
+  position: relative;
+  width: 600px;
+  height: 300px;
 }
 

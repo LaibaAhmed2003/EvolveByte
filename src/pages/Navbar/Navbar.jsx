@@ -4,14 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../media/logo/Whitelogo.png";
 import "./navbar.css";
-
+import Banner from "../Banner/banner";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-
   return (
     <>
       <nav className={`navbar-container ${showMenu ? "show" : ""}`} id="navbar">
@@ -26,21 +25,18 @@ const Navbar = () => {
         </div>
 
         <div className="navlinksContainer">
-          <Link
-            smooth
-            to="https://www.evolvebyte.com/#work"
-            className="navlink"
-          >
+          <Link smooth to="#work" className="navlink">
             Results
           </Link>
           <Link smooth to="#process" className="navlink">
             Process
           </Link>
-          <a
+          {/* <a
             href="https://www.evolvebyte.com/portfolio"
             target="_blank"
             className="navlink"
-          >
+          > */}
+          <a href="#testimonial" target="_blank" className="navlink">
             Case Studies
           </a>
 

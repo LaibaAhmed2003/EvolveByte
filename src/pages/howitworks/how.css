@@ -1,0 +1,36 @@
+.how-container{
+    text-align: center;
+    position: relative;
+    height: 160vh;
+    padding: 10px 70px;
+}
+.second-heading{
+    text-align: left;
+}
+.FAQ-sess2 {
+    width: 100%;
+    position: absolute;
+    /* left: 66%; */
+    transform: translateX(-50%);
+    padding: 10px 30px;
+  }
+
+  @media(min-width:300px) and (max-width: 500px){
+    .how-container{
+        padding: 0 30px;
+    }
+    .second-heading{
+        font-size: 30px;
+        text-align: center;
+    }
+    .FAQ-sess2{
+        display: block;
+        width: 90%;
+        position: absolute;
+        top: 18%;
+        left: 51%;
+        transform: translateX(-50%);
+        padding: 70px 40px 0px 40px;
+        min-height: 100vh;
+    }
+  }
