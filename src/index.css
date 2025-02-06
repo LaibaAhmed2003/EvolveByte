@@ -20,7 +20,7 @@ body {
 }
 span {
   /* color: #ffe812; */
-  color: yellow; /* fallback for old browsers */
+  color: #ffe812; /* fallback for old browsers */
   font-weight: bolder;
 }
 
