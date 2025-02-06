@@ -61,7 +61,7 @@ const Team = () => {
           <img src={Other} alt="" />
           <div className="name-des">
             <h5>Team Members</h5>
-            <h3>Content Writers</h3>
+            <h3>7 Content Writers</h3>
           </div>
         </div>
       </div>

@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faEnvelope,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./banner.css";
 
@@ -17,15 +21,8 @@ const Banner = () => {
             hello@evolvebyte.com
           </div>
           <div className="linkedin det">
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
-            <a
-              href="https://www.linkedin.com/in/personalbrandingconsultant/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              Visit LinkedIn Profile
-            </a>
+            <FontAwesomeIcon icon={faLocationDot} className="icon" />
+            Workbench, 13-D, Market, D Block, Valencia, Lahore
           </div>
         </div>
       </div>

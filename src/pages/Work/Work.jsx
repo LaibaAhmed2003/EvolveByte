@@ -3,8 +3,8 @@ import { useState } from "react";
 import "./work.css";
 import pascalvid from "../../media/pascal's-vid.mp4";
 import laibavid from "../../media/laiba's-vid.mp4";
-import overlayImage1 from "../../media/pascalimage.png";
-import overlayImage2 from "../../media/laiba-image.png";
+import overlayImage1 from "../../media/ppc.png";
+import overlayImage2 from "../../media/llc.png";
 
 const Work = () => {
   const [isOverlayVisible, setOverlayVisible] = useState({
@@ -34,6 +34,8 @@ const Work = () => {
                 className="workpro-img"
                 width="600px"
                 height="400px"
+                // width="100%"
+                // height="100%"
                 controls
                 style={{
                   cursor: "pointer",
@@ -64,7 +66,7 @@ const Work = () => {
             </div> */}
             <p className="video-para">
               Pascal started getting 2x impressions and qualified leads from
-              LinkedIn even from the 2nd week. I helped him in defining his
+              LinkedIn even from the 2nd week. We helped him in defining his
               offer, optimizing his profile, creating sales funnel, and LinkedIn
               content creation on a monthly basis.
             </p>
@@ -95,7 +97,7 @@ const Work = () => {
                 />
               )}
             </div>
-            <h3 className="caption">“Neha goes above and beyond”</h3>
+            <h3 className="caption">“Evolvebyte goes above and beyond”</h3>
             {/* <div className="leads-container">
               <div className="leads-contents">
                 <h4>+664%</h4>

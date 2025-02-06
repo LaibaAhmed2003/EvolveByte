@@ -48,7 +48,7 @@
     font-size: 16px;
   }
  .navlinksContainer .btn{
-  background-color: yellow;
+  background-color: #ffe812;
   color: black;
  }
  .btn .navlink{
@@ -94,7 +94,7 @@
       padding: 0 11% 0 115px
     }
     .fabars{
-      border: 2px solid yellow;
+      border: 2px solid #ffe812;
       padding: 4px;
       font-size: 20px;
       border-radius: 4px;
@@ -176,7 +176,7 @@
     padding: 0 11% 0 115px
   }
   .fabars{
-    border: 2px solid yellow;
+    border: 2px solid #ffe812;
     padding: 4px;
     font-size: 20px;
     border-radius: 4px;

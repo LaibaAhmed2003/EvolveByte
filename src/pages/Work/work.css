@@ -18,7 +18,7 @@
     margin-top: 30px;
     width: 350px;
     height: 400px;
-    background-color: rgb(242, 190, 18);
+    background-color: #ffe812;
     border: 1px solid grey;
     clip-path: polygon(
       0 0,
@@ -68,7 +68,7 @@
     margin-bottom: 100px;
   }
   .caption{
-    background-color: yellow;
+    background-color: #ffe812;
     color: black;
     font-weight: 800;
     text-align: center;
@@ -85,7 +85,7 @@
   }
   .leads-contents h4{
     font-size: 30px;
-    color: yellow;
+    color: #ffe812;
     font-weight: 900;
   }
   .leads-contents h5{
@@ -98,7 +98,7 @@
   .case-link{
     padding: 1px 2% 3% 2%;
     font-weight: 800;
-    color: yellow;
+    color: #ffe812;
     cursor: pointer;
   }
 /* Mobile device */
@@ -178,7 +178,7 @@
       opacity: 0.3;
     }
     .caption{
-      background-color: yellow;
+      background-color: #ffe812;
       color: black;
       font-weight: 700;
       text-align: center;
@@ -188,7 +188,7 @@
     }
     .leads-contents h4{
       font-size: 10px;
-      color: yellow;
+      color: #ffe812;
       font-weight: 500;
     }
     .leads-contents h5{
@@ -230,7 +230,7 @@
       opacity: 0.3;
     }
     .caption{
-      background-color: yellow;
+      background-color: #ffe812;
       color: black;
       font-weight: 700;
       text-align: center;
@@ -240,7 +240,7 @@
     }
     .leads-contents h4{
       font-size: 10px;
-      color: yellow;
+      color: #ffe812;
       font-weight: 500;
     }
     .leads-contents h5{
@@ -282,7 +282,7 @@
     opacity: 0.3;
   }
   .caption{
-    background-color: yellow;
+    background-color: #ffe812;
     color: black;
     font-weight: 700;
     text-align: center;
@@ -292,7 +292,7 @@
   }
   .leads-contents h4{
     font-size: 10px;
-    color: yellow;
+    color: #ffe812;
     font-weight: 500;
   }
   .leads-contents h5{
@@ -334,7 +334,7 @@
     /* opacity: 0.3; */
   }
   .caption{
-    background-color: yellow;
+    background-color: #ffe812;
     color: black;
     font-weight: 700;
     text-align: center;
@@ -344,7 +344,7 @@
   }
   .leads-contents h4{
     font-size: 10px;
-    color: yellow;
+    color: #ffe812;
     font-weight: 500;
   }
   .leads-contents h5{
@@ -358,9 +358,9 @@
   position: absolute;
   top: 0;
   left:-10;
-  width: 600px;
-  height: 400px;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   z-index: 1;
 }
 .video-wrapper {

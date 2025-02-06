@@ -12,11 +12,11 @@ const Hero = () => {
           autoPlay
           muted
           loop
-          style={{ opacity: "0.2" }}
+          // style={{ opacity: "0.1" }}
         ></video>
       </div>
       <div className="hero-content">
-        <h1>
+        <h1 >
           Build Your Thought Leaderships & <br />
           <span className="span">Get Leads from LinkedIn.</span>
         </h1>

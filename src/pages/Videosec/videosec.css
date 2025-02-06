@@ -11,7 +11,7 @@
     width: 100%;
   }
   .caption{
-    background-color: #ffff00;
+    background-color: #ffe812;
     color: black;
     font-weight: 800;
     text-align: center;
@@ -28,7 +28,7 @@
   }
   .leads-contents h4{
     font-size: 40px;
-    color: yellow;
+    color: #ffe812;
     font-weight: 900;
   }
   .leads-contents h5{
@@ -40,7 +40,7 @@
   .case-link{
     padding: 1px 2% 3% 2%;
     font-weight: 800;
-    color: yellow;
+    color: #ffe812;
     cursor: pointer;
   }
   @media(min-width: 300px) and (max-width: 500px){

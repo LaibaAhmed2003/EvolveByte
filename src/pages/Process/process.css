@@ -73,7 +73,7 @@
   
   .progress {
     width: 100%;
-    background-color: yellow;
+    background-color: #ffe812;
     transition: height 0.01s ease-in-out;
   }
   .mtop{
@@ -92,7 +92,7 @@
     transform: translateX(-50%);
     width: 10px; /* Adjust the width of the ring */
     height: 10px; /* Adjust the height of the ring */
-    border: 2px solid yellow;
+    border: 2px solid #ffe812;
     border-radius: 50%;
     background-color: transparent;
     z-index: 100;

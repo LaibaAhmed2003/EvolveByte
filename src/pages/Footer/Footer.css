@@ -45,8 +45,8 @@
   .sndsec .text img{
     margin-left: -14px;
     height: 80px;
-    width: 100px;
-    width: 327px;
+    width: 100%;
+
   }
   .links {
     display: flex;

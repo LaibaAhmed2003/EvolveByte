@@ -131,9 +131,9 @@
   }
   
   .Activefilter {
-    background-color: yellow;
+    background-color: #ffe812;
     color: black;
-    border: 1px solid yellow;
+    border: 1px solid #ffe812;
     display: flex;
     align-items: center;
     text-align: center;

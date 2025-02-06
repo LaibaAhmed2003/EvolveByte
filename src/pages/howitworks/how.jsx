@@ -46,14 +46,14 @@ const How = () => {
             </div>
             {showContent1 && (
               <p>
-                - We will discuss your goals, and I’ll break down my entire
+                - We will discuss your goals, and We’ll break down my entire
                 process.
               </p>
             )}
           </div>
           <div className="question">
             <div className="heading-arrow">
-              <h3 className="faq-heading">02. I'll gather all requirements</h3>
+              <h3 className="faq-heading">02. We'll gather all requirements</h3>
               <FontAwesomeIcon
                 icon={faArrowDown}
                 className="arrow-down"
@@ -62,7 +62,7 @@ const How = () => {
             </div>
             {showContent2 && (
               <p>
-                - I’ll send a questionnaire to understand all your business
+                - We’ll send a questionnaire to understand all your business
                 objectives.
               </p>
             )}
@@ -78,7 +78,7 @@ const How = () => {
             </div>
             {showContent3 && (
               <p>
-                - Once we have our contract, I’ll officially onboard you on
+                - Once we have our contract, We’ll officially onboard you on
                 Trello where you can review everything.
               </p>
             )}
@@ -96,7 +96,7 @@ const How = () => {
             </div>
             {showContent4 && (
               <p>
-                - I will thoroughly optimize your LinkedIn profile to turn it
+                - We will thoroughly optimize your LinkedIn profile to turn it
                 into a high-converting landing page.
               </p>
             )}
@@ -104,7 +104,7 @@ const How = () => {
           <div className="question">
             <div className="heading-arrow">
               <h3 className="faq-heading">
-                05. I queue up ideas with content strategy
+                05. We queue up ideas with content strategy
               </h3>
               <FontAwesomeIcon
                 icon={faArrowDown}
@@ -114,8 +114,8 @@ const How = () => {
             </div>
             {showContent5 && (
               <p>
-                - I develop a content strategy that combines your goals with the
-                needs of your target audience.
+                - We develop a content strategy that combines your goals with
+                the needs of your target audience.
               </p>
             )}
           </div>
@@ -133,8 +133,8 @@ const How = () => {
             </div>
             {showContent6 && (
               <p>
-                - I will create top-notch LinkedIn posts and share them with you
-                to gather your thoughts.
+                - We will create top-notch LinkedIn posts and share them with
+                you to gather your thoughts.
               </p>
             )}
           </div>
@@ -150,15 +150,16 @@ const How = () => {
             </div>
             {showContent7 && (
               <p>
-                - After your approval, I will publish the posts at the optimal
+                - After your approval, We will publish the posts at the optimal
                 time according to your time zone.
               </p>
             )}
           </div>
-
           <div className="question">
             <div className="heading-arrow">
-              <h3 className="faq-heading">08. Now I optimize</h3>
+              <h3 className="faq-heading">
+                08. Implementing networking strategy
+              </h3>
               <FontAwesomeIcon
                 icon={faArrowDown}
                 className="arrow-down"
@@ -167,17 +168,15 @@ const How = () => {
             </div>
             {showContent8 && (
               <p>
-                - I'll monitor the performance of your posts—impressions, ICP
-                engagement, leads, etc., to further improve results.
+                - My 1-1 consultation will always be available to you for free,
+                and We’ll share my proven networking strategy so you know how to
+                do LinkedIn engagement in the right way.
               </p>
             )}
           </div>
-
           <div className="question">
             <div className="heading-arrow">
-              <h3 className="faq-heading">
-                09. Consultation and sharing networking strategy
-              </h3>
+              <h3 className="faq-heading">09. Now We optimize</h3>
               <FontAwesomeIcon
                 icon={faArrowDown}
                 className="arrow-down"
@@ -186,9 +185,8 @@ const How = () => {
             </div>
             {showContent9 && (
               <p>
-                - My 1-1 consultation will always be available to you for free,
-                and I’ll share my proven networking strategy so you know how to
-                do LinkedIn engagement in the right way.
+                - We'll monitor the performance of your posts—impressions, ICP
+                engagement, leads, etc., to further improve results.
               </p>
             )}
           </div>

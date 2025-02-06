@@ -48,7 +48,7 @@ const Process2 = () => {
           <div className="text-item">
             <h3>01. It starts with a call</h3>
             <p>
-              - We will discuss your goals, and I’ll break down my entire
+              - We will discuss your goals, and we’ll break down my entire
               process.
             </p>
             <br />
@@ -57,9 +57,9 @@ const Process2 = () => {
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>02. I'll gather all requirements</h3>
+            <h3>02. We'll gather all requirements</h3>
             <p>
-              - I’ll send a questionnaire to understand all your business
+              - We’ll send a questionnaire to understand all your business
               objectives.
             </p>
           </div>
@@ -69,8 +69,8 @@ const Process2 = () => {
           <div className="text-item">
             <h3>03. Onboarding You</h3>
             <p>
-              - Once we have our contract, I’ll officially onboard you on Trello
-              where you can review everything.
+              - Once we have our contract, We’ll officially onboard you on
+              Trello where you can review everything.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ const Process2 = () => {
           <div className="text-item">
             <h3>07. Publishing your post</h3>
             <p>
-              - After your approval, I will publish the posts at the optimal
+              - After your approval, We will publish the posts at the optimal
               time according to your time zone.
             </p>
           </div>
@@ -89,9 +89,9 @@ const Process2 = () => {
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>08. Now I optimize</h3>
+            <h3>08. Now We optimize</h3>
             <p>
-              - I'll monitor the performance of your posts—impressions, ICP
+              - We'll monitor the performance of your posts—impressions, ICP
               engagement, leads, etc., to further improve results.
             </p>
           </div>
@@ -119,17 +119,17 @@ const Process2 = () => {
           <div className="text-item">
             <h3>04. Your profile optimization begins here</h3>
             <p>
-              - I will thoroughly optimize your LinkedIn profile to turn it into
-              a high-converting landing page.
+              - We will thoroughly optimize your LinkedIn profile to turn it
+              into a high-converting landing page.
             </p>
           </div>
           <div>
             <video src={Video1} className="videosec" autoPlay loop muted />
           </div>
           <div className="text-item">
-            <h3>05. I queue up ideas with content strategy</h3>
+            <h3>05. We queue up ideas with content strategy</h3>
             <p>
-              - I develop a content strategy that combines your goals with the
+              - We develop a content strategy that combines your goals with the
               needs of your target audience.
             </p>
           </div>
@@ -140,7 +140,7 @@ const Process2 = () => {
           <div className="text-item">
             <h3>06. Creating Linkedin posts for you</h3>
             <p>
-              - I will create top-notch LinkedIn posts and share them with you
+              - We will create top-notch LinkedIn posts and share them with you
               to gather your thoughts.
             </p>
           </div>
@@ -150,11 +150,11 @@ const Process2 = () => {
           </div>
 
           <div className="text-item">
-            <h3>09. Consultation and sharing networking strategy</h3>
+            <h3>09. Implementing networking strategy</h3>
             <p>
               - My 1-1 consultation will always be available to you for free,
-              and I’ll share my proven networking strategy so you know how to do
-              LinkedIn engagement in the right way.
+              and we’ll share my proven networking strategy so you know how to
+              do LinkedIn engagement in the right way.
             </p>
           </div>
         </div>

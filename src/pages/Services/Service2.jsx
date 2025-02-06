@@ -11,7 +11,7 @@ const Service2 = () => {
         <p
           style={{ padding: "0px 10px 20px 10px", textTransform: "capitalize" }}
         >
-          Here’s How I help with LinkedIn
+          Here’s How We help with LinkedIn
         </p>
         <div className="service-sec">
           <div className="inner-ser">
@@ -58,8 +58,8 @@ const Service2 = () => {
             <div className="ser-heading">Expert Graphic Design</div>
             <div className="ser-text">
               <p>
-                Visual appeal is key, and I truly understand. I and my graphics
-                designer will create detailed infographics,{" "}
+                Visual appeal is key, and We truly understand. We and my
+                graphics designer will create detailed infographics,{" "}
                 <span style={{ fontWeight: "bolder" }}>
                   {" "}
                   vibrant post visuals, and dynamic carousels that will
@@ -77,9 +77,9 @@ const Service2 = () => {
             <div className="ser-heading">Hands-off Publishing</div>
             <div className="ser-text">
               <p>
-                I don’t just manage your content, I also handle the publishing.
-                Each post is released on the optimal day and time to maximize
-                attention from your target audience.
+                We don’t just manage your content, We also handle the
+                publishing. Each post is released on the optimal day and time to
+                maximize attention from your target audience.
                 <span style={{ fontWeight: "bolder" }}>
                   {" "}
                   I’ll even repurpose your top-performing content to further
@@ -96,19 +96,14 @@ const Service2 = () => {
             <div className="ser-heading">Networking strategy</div>
             <div className="ser-text">
               <p>
-                I’m happy to provide you with my proven LinkedIn networking
-                strategy(Worth $250) that has generated thousands of impressions
-                and potential warm leads.
-                <span style={{ fontWeight: "bolder" }}>
-                  {" "}
-                  It’s useful for you only if you dedicate at least 30-40
-                  minutes daily to LinkedIn networking and implement the steps I
-                  share.
-                </span>
+                We're happy to implement our proven LinkedIn networking strategy
+                on your account, which has generated thousands of impressions
+                and potential warm leads. We dedicate 1 hour daily (5 days a
+                week) to executing this strategy on your behalf, leading to:
               </p>
+              <p>- Building thought leadership</p>
               <p>- Increasing brand awareness</p>
-              <p>- Getting more inbound leads</p>
-              <p>- Consistently growing your network</p>
+              <p>- Generating more inbound leads</p>
               <p>- Receiving potential collaboration opportunities</p>
             </div>
           </div>
@@ -133,14 +128,14 @@ const Service2 = () => {
             <div className="ser-heading">ADD-ON SERVICES (Optional)</div>
             <div className="ser-text">
               <p>
-                To ensure maximum lead flow, I offer outbound services to reach
+                To ensure maximum lead flow, We offer outbound services to reach
                 and engage your target market proactively. This is guided by
                 thousands of hours of experience in lead prospecting and
                 outreach.
               </p>
               <p>- Handling networking & engagement for you</p>
               <p>- Personalized lead prospecting</p>
-              <p>- Cold outreach sequences</p>
+              <p>- Content repurposing on Meta, X, Instagram</p>
             </div>
           </div>
         </div>
