@@ -7,11 +7,11 @@
     position: relative;
     overflow: hidden;
     width: fit-content;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3% 30%;
+    padding: 3% 23%;
   }
   
   .video-overlay {
@@ -19,8 +19,8 @@
     position: absolute;
     top: 150;
     left: 100;
-    width: 90%;
-    height: 80%;
+    /* width: 90%;
+    height: 80%; */
     /* background: linear-gradient(
       rgba(14, 14, 14, 0.7),
       rgba(0, 0, 0, 0.235)
@@ -33,8 +33,8 @@
   }
   
   .video-background {
-    width: 96%;
-    height: 90%;
+    /* width: 96%;
+    height: 90%; */
     object-fit: cover;
     clip-path: polygon(0 0, calc(94% - 2rem) 0, 100% calc(13% + 1rem), 100% 100%, calc(3% + 3rem) 102%, 0% calc(87% - 2rem));
     border-radius: 50px;
@@ -45,10 +45,10 @@
     text-align: center;
     color: white;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
   }
   .hero-content h1 {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
     font-weight: 800;
     line-height: 1;
     /* width: 100%; */
@@ -90,6 +90,7 @@
       margin: 0;
       padding: 0px 13px;
       width: fit-content;
+      height: 185px;
     }
     .hero-content h5 {
       font-size: 1.1rem;
@@ -107,6 +108,9 @@
       width: 84%;
       height: 90%;
       margin-left: -51px;
+    }
+    .images-folder{
+      display: none;
     }
   }
 
@@ -186,3 +190,185 @@
       padding: 20px;
     }
   }
+
+
+
+
+.images-folder{
+  position: relative;
+}
+
+.images-folder img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #313130;
+}
+.images-folder .martin{
+  position: absolute;
+  top: -221px;
+    left: -134px;
+}
+
+.images-folder .andrew{
+  position: absolute;
+  top: -496px;
+  left: -134px;
+
+}
+
+.images-folder .matheas{
+  position: absolute;
+   top: -78px;
+    left: -292px;
+}
+
+.images-folder .karl{
+  position: absolute;
+  top: -202px;
+  left: -169px;
+}
+
+
+.images-folder .selva{
+  position: absolute;
+  top: -401px;
+  left: 24px;
+
+}
+
+
+.images-folder .isabella{
+  position: absolute;
+  top: -380px;
+    left: 1052px;
+}
+.images-folder .dan{
+  position: absolute;
+  top: -64px;
+  left: 1014px;
+}
+.images-folder .laura{
+  position: absolute;
+  top: -12px;
+    left: -64px;
+}
+.images-folder .werner{
+  position: absolute;
+  top: -31px;
+    left: 706px;
+}
+
+.images-folder .aliaslam{
+  position: absolute;
+  top: -78px;
+    left: -292px;
+}
+
+.images-folder .sidra{
+  position: absolute;
+  top: -370px;
+  left: -296px;
+}
+
+.images-folder .laiba{
+  position: absolute;
+  top: -310px;
+  left: 839px;
+}
+
+.connection-line1 {
+  position: absolute;
+  top: -412px;
+  left: -89px;
+  color: white;
+  width: 121px;
+  transform: rotate(32deg);
+ 
+}
+
+.connection-line2 {
+  position: absolute;
+    top: -260px;
+    left: -141px;
+    color: white;
+    width: 217px;
+    transform: rotate(134deg);
+ 
+}
+
+.connection-line3 {
+  position: absolute;
+  top: -96px;
+  left: -244px;
+  color: white;
+  width: 115px;
+  transform: rotate(134deg);
+ 
+}
+
+.connection-line4 {
+  position: absolute;
+  top: -69px;
+  left: -160px;
+  color: white;
+  width: 173px;
+  transform: rotate(64deg);
+ 
+}
+
+.connection-line5 {
+  position: absolute;
+    top: -260px;
+    left: -294px;
+    color: white;
+    width: 168px;
+    transform: rotate(58deg);
+}
+
+.connection-line6 {
+  position: absolute;
+  top: -192px;
+  left: 934px;
+  color: white;
+  width: 255px;
+  transform: rotate(95deg);
+}
+.connection-line7 {
+  position: absolute;
+    top: -172px;
+    left: 819px;
+    color: white;
+    width: 269px;
+    transform: rotate(54deg);
+}
+.connection-line8 {
+  position: absolute;
+  top: -145px;
+  left: 672px;
+  color: white;
+  width: 270px;
+  transform: rotate(292deg);
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.images-folder img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #313130;
+  opacity: 0; /* Start Hidden */
+  animation: fadeIn 1.5s ease-out forwards;
+}
+

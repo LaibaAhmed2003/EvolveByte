@@ -121,7 +121,7 @@ const Work = () => {
       </div>
       <Link smooth to="#testimonial" className="navlink">
         <button className="Seebtn" style={{ margin: "80px 0px" }}>
-          What my client say?
+          What our client say?
         </button>
       </Link>
     </div>

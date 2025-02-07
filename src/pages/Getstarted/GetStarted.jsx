@@ -5,10 +5,17 @@ const GetStarted = () => {
   return (
     <div className="GetStarted-Container" id="getStarted">
       <div className="getstarted-innercontainer">
-        <p className="heading" style={{ color: "white" }}>
+        <p className="heading" style={{ color: "yellow" }}>
           Get Started
         </p>
-        <h2 className="second-heading" style={{ padding: "30px 0px 60px 0px" }}>
+        <h2
+          className="second-heading"
+          style={{
+            padding: "30px 0px 60px 0px",
+            fontWeight: "bolder",
+            color: "white",
+          }}
+        >
           How To Get Started?
         </h2>
         <div className="strategies-container">
@@ -43,7 +50,12 @@ const GetStarted = () => {
             </p>
           </div>
         </div>
-        <Link smooth to="#pricing" className="navlink">
+        <Link
+          smooth
+          to="https://calendly.com/evolvebyte/meeting"
+          target="_blank"
+          className="navlink"
+        >
           <button className="Seebtn">Contact Now</button>
         </Link>
       </div>

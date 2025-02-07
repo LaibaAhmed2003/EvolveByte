@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { HashLink as Link } from "react-router-hash-link";
+
 import "./FAQ.css";
 
 const FAQs = () => {
@@ -28,9 +30,14 @@ const FAQs = () => {
           EvolveByte is always growing and we're <br /> here to help along the
           way. If you have <br /> additional questions, feel free to reach out.
         </p>
-        <button className="btn" style={{ padding: "10px 20px" }}>
-          Get Started
-        </button>
+
+        <Link
+          smooth
+          to="https://calendly.com/evolvebyte/meeting"
+          target="_blank"
+        >
+          <button className="Seebtn">Contact Now</button>
+        </Link>
       </div>
       <div className="FAQ-sess2">
         <div className="question">
@@ -50,18 +57,22 @@ const FAQs = () => {
               LinkedIn is one of the highest-converting marketing channels on
               the planet. When you look at the stats, it's pretty wild.
               <br />
+              <br />
               LinkedIn’s user base of over 800 million professionals offers vast
               networking possibilities that can lead to business opportunities.
+              <br />
               <br />
               Being consistent on LinkedIn can establish you as an industry
               expert, attracting potential clients among LinkedIn’s user base
               actively seeking industry insights.
+              <br />
               <br />
               LinkedIn Sales Navigator can enhance lead generation efforts, with
               LinkedIn claiming a 17% higher win rate when leads are sourced
               through the platform. Sharing links on LinkedIn can enhance SEO,
               leveraging its high domain authority to boost your site's
               visibility in search results
+              <br />
               <br />
               In a nutshell, once you implement the right strategies for
               LinkedIn growth, it can become your 24/7 sales generation machine.
@@ -82,7 +93,7 @@ const FAQs = () => {
           {showContent2 && (
             <p>
               We help you attract the right people on LinkedIn and grow your
-              business by offering you my all-in-one LinkedIn growth services -
+              business by offering you our all-in-one LinkedIn growth services -
               Profile optimization, LinkedIn content creation, Networking
               strategy, 1-1 consultation, and cold outreach.
             </p>

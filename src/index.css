@@ -22,6 +22,7 @@ span {
   /* color: #ffe812; */
   color: #ffe812; /* fallback for old browsers */
   font-weight: bolder;
+  font-size: 35px;
 }
 
 

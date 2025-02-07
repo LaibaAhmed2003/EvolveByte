@@ -26,7 +26,9 @@
     background-color: #ffe812;
     color: black;
     font-weight: bolder;
-    padding: 10px;
+    padding: 17px;
+    clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% calc(0% + 1rem), 100% 100%, calc(0% + 1rem) 100%, 0% calc(100% - 1rem));
+    border-radius: 0.5rem;
 }
 .ser-text{
     width: 50%;

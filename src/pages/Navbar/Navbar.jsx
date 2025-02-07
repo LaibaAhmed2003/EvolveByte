@@ -25,27 +25,27 @@ const Navbar = () => {
         </div>
 
         <div className="navlinksContainer">
+          <Link smooth to="#services" className="navlink">
+            What we do
+          </Link>
           <Link smooth to="#work" className="navlink">
-            Results
+            Our Work
           </Link>
           <Link smooth to="#process" className="navlink">
-            Process
+            How it work
           </Link>
           {/* <a
             href="https://www.evolvebyte.com/portfolio"
             target="_blank"
             className="navlink"
           > */}
-          <a href="#testimonial" target="_blank" className="navlink">
-            Case Studies
-          </a>
 
-          <Link smooth to="#testimonial" className="navlink">
+          {/* <Link smooth to="#testimonial" className="navlink">
             Testimonial
           </Link>
           <Link smooth to="#faqs" className="Link">
             FAQs
-          </Link>
+          </Link> */}
           <button className="btn">
             <Link smooth to="#getStarted" className="navlink" id="getstar">
               Get Started

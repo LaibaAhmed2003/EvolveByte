@@ -31,8 +31,8 @@ const How = () => {
     <>
       <div className="how-container" id="process">
         <h2 className="second-heading">
-          Step-by-Step Roadmap<br></br> How We'll Be Working<br></br> On Your
-          LinkedIn Growth.
+          <span> Step-by-Step Roadmap </span>
+          <br></br> How We'll Be Working<br></br> On Your LinkedIn Growth.
         </h2>
         <div className="FAQ-sess2">
           <div className="question">
@@ -46,7 +46,7 @@ const How = () => {
             </div>
             {showContent1 && (
               <p>
-                - We will discuss your goals, and We’ll break down my entire
+                - We will discuss your goals, and We’ll break down our entire
                 process.
               </p>
             )}
@@ -168,9 +168,10 @@ const How = () => {
             </div>
             {showContent8 && (
               <p>
-                - My 1-1 consultation will always be available to you for free,
-                and We’ll share my proven networking strategy so you know how to
-                do LinkedIn engagement in the right way.
+                - We implement our proven LinkedIn networking strategy on your
+                account, which has generated thousands of impressions and
+                potential warm leads. We dedicate 1 hour daily (5 days a week)
+                to executing this strategy on your behalf.
               </p>
             )}
           </div>
