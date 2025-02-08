@@ -213,7 +213,7 @@
 .images-folder .andrew{
   position: absolute;
   top: -496px;
-  left: -134px;
+  left: -154px;
 
 }
 
@@ -232,8 +232,8 @@
 
 .images-folder .selva{
   position: absolute;
-  top: -401px;
-  left: 24px;
+  top: -361px;
+  left: -80px;
 
 }
 
@@ -255,8 +255,8 @@
 }
 .images-folder .werner{
   position: absolute;
-  top: -31px;
-    left: 706px;
+  top: -19px;
+  left: 819px;
 }
 
 .images-folder .aliaslam{
@@ -273,27 +273,27 @@
 
 .images-folder .laiba{
   position: absolute;
-  top: -310px;
-  left: 839px;
+    top: -310px;
+    left: 906px;
 }
 
 .connection-line1 {
   position: absolute;
-  top: -412px;
-  left: -89px;
+  top: -394px;
+  left: -130px;
   color: white;
-  width: 121px;
-  transform: rotate(32deg);
+  width: 93px;
+  transform: rotate(57deg);
  
 }
 
 .connection-line2 {
   position: absolute;
-    top: -260px;
-    left: -141px;
-    color: white;
-    width: 217px;
-    transform: rotate(134deg);
+  top: -260px;
+  left: -150px;
+  color: white;
+  width: 150px;
+  transform: rotate(123deg);
  
 }
 
@@ -337,18 +337,18 @@
 .connection-line7 {
   position: absolute;
     top: -172px;
-    left: 819px;
+    left: 845px;
     color: white;
-    width: 269px;
-    transform: rotate(54deg);
+    width: 253px;
+    transform: rotate(63deg);
 }
 .connection-line8 {
   position: absolute;
   top: -145px;
-  left: 672px;
+  left: 754px;
   color: white;
-  width: 270px;
-  transform: rotate(292deg);
+  width: 274px;
+  transform: rotate(111deg);
 }
 
 

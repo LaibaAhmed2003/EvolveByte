@@ -24,8 +24,8 @@ const Service2 = () => {
                 business and yourself.
                 <span style={{ fontWeight: "bolder" }}>
                   {" "}
-                  What unique stories, opinions, and insights do you have that
-                  can set you apart?{" "}
+                  This includes your unique stories, vision, value you have to
+                  offer, and insights that set you apart.
                 </span>
               </p>
               <br></br>
@@ -45,8 +45,8 @@ const Service2 = () => {
                 destined to keep scrolling.
                 <span style={{ fontWeight: "bolder" }}>
                   {" "}
-                  And you’ll be wasting all the time you invested in creating
-                  the content. We’ll handle all that.
+                  Your posts must grab attention and keep the audience reading
+                  until the end. We'll handle all that.
                 </span>
               </p>
               <br></br>
@@ -144,15 +144,15 @@ const Service2 = () => {
                 To ensure maximum lead flow,
                 <span style={{ fontWeight: "bolder" }}>
                   {" "}
-                  We offer outbound services to reach and engage your target
+                  We offer few add-on services to reach and engage your target
                   market proactively.{" "}
                 </span>
-                This is guided by thousands of hours of experience in lead
-                prospecting and outreach.
+                This is guided by thousands of hours of experience in building
+                relationships and lead prospecting.
               </p>
               <br></br>
-              <p>- Handling networking & engagement for you</p>
-              <p>- Personalized lead prospecting</p>
+              <p>- LinkedIn newsltter</p>
+              <p>- Personalized messaging outreach</p>
               <p>- Content repurposing on Meta, X, Instagram</p>
             </div>
           </div>

@@ -15,6 +15,8 @@ import Werner from "../../media/Clients/Werner.jpg";
 import sidra from "../../media/Clients/sidrasaleem.jpg";
 import laiba from "../../media/Clients/laiba.jpg";
 import aliaslam from "../../media/Clients/aliaslam.jpg";
+import pascal from "../../media/Clients/pascalimg.jpg";
+import russ from "../../media/Clients/russ.jpg";
 const Hero = () => {
   return (
     <div className="hero-container" id="hero">
@@ -54,7 +56,7 @@ const Hero = () => {
           <hr className="connection-line1" />
           <img src={Matheas} alt="" className="matheas" />
           <hr className="connection-line2" />
-          <img src={karl} alt="" className="karl" />
+          <img src={pascal} alt="" className="karl" />
           <hr className="connection-line3" />
 
           <img src={Selva} alt="" className="selva" />
@@ -73,7 +75,7 @@ const Hero = () => {
           <hr className="connection-line8" />
 
           {/* <img src={aliaslam} alt="" className="aliaslam" /> */}
-          <img src={sidra} alt="" className="sidra" />
+          <img src={russ} alt="" className="sidra" />
           <img src={laiba} alt="" className="laiba" />
         </div>
       </div>
